@@ -71,9 +71,10 @@ with fog nodes positioned anywhere between cloud and end devices. Essential feat
 
 - Seamless interoperability and federation
 
-Several architectures exsist for describing how to deploy fog computing systems in a standardized way (openfog)
+Several architectures exist for describing how to deploy fog computing systems in a standardized way (openfog)
 
-A general description is given by the OpenFog N-tier architecture
+A general description is given by the OpenFog N-tier architecture where the generic elements in the architecture are endpoints, fog nodes and the cloud.
+On top of that multiple layers of fog nodes (N-tiers) can exist and form the fog layer.
 
 
 
