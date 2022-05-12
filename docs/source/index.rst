@@ -55,4 +55,25 @@ An example of such a setup could be AR/VR system that offloads some computations
 
 Fog Computing
 -----------------------------------
+Both Cloud computing and edge computing are essential for future technologies and applications. Fog computing is a new paradigm that operates in between the cloud, edge and for example IoT data sources 
+with the intent of enhancing the integration of cloud, edge and IoT. Fog computing adopts a distributed approach originating from the edge computing model to overcome the limitations of the centralized cloud computing approach, 
+with fog nodes positioned anywhere between cloud and end devices. Essential features of fog computing are:
+
+- Allowing for low latency when needed.
+
+- Save network bandwidth and limit data transfers.
+
+- Support user mobility.
+
+- Geographically wide distribution and thus decentrailized.
+
+- Scalability.
+
+- Seamless interoperability and federation
+
+Several architectures exsist for describing how to deploy fog computing systems in a standardized way (openfog)
+
+A general description is given by the OpenFog N-tier architecture
+
+
 
