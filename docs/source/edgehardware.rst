@@ -204,7 +204,7 @@ differences between these SBCs are listed below.
      SBC in the Jetson range and is available in several versions.
 
    .. container::
-      :name: tab:jetsonagx
+      :name: tab:jetsonagxorin
 
       .. table:: Specifications of the Jetson AGX Orin.
 
