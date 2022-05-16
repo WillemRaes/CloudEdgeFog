@@ -4,3 +4,4 @@
     
     intro
     costdiff
+    references
