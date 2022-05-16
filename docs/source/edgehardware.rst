@@ -172,7 +172,7 @@ differences between these SBCs are listed below.
    .. container::
       :name: tab:jetsonagx
 
-      .. table:: Specifiactions of the Jetson AGX Xavier.
+      .. table:: Specifications of the Jetson AGX Xavier.
 
          +---------------------------+-----------------------------------------+
          | **Jetson AGX Xavier**     |                                         |
@@ -197,6 +197,41 @@ differences between these SBCs are listed below.
          | Deep Learning Accelerator | 2x NVDLA                                |
          +---------------------------+-----------------------------------------+
          | Vision Accelerator        | 2x 7-Way VLIW Vision Processor          |
+         +---------------------------+-----------------------------------------+
+
+-  | **Jetson AGX ORIN**
+   | The Jetson Orin is an even more advanced
+     SBC in the Jetson range and is available in several versions.
+
+   .. container::
+      :name: tab:jetsonagx
+
+      .. table:: Specifications of the Jetson AGX Orin.
+
+         +---------------------------+-----------------------------------------+
+         | **Jetson AGX Orin**     |                                           |
+         +===========================+=========================================+
+         | AI performantie           | 275 TFLOPs                              |
+         +---------------------------+-----------------------------------------+
+         | CPU                       | 12-core Arm Cortex-A78AE v8.2 64-bit CPU| 
+         |                           | 3MB L2 + 6MB L3                         |
+         |                           |                                         |
+         +---------------------------+-----------------------------------------+
+         | GPU                       | NVIDIA Ampere architecture with 2048    |
+         |                           | NVIDIA® CUDA® cores and 64 tensor cores |
+         +---------------------------+-----------------------------------------+
+         | Memory                    | 32 GB 256-bit LPDDR5 204.8GB/s          |
+         +---------------------------+-----------------------------------------+
+         | Storage                   | 64 GB eMMC 5.1                          |
+         +---------------------------+-----------------------------------------+
+         | CSI Camera                | 16 lane MIPI CSI-2 connector            |
+         |                           |                                         |
+         +---------------------------+-----------------------------------------+
+         | Power                     | 15W - 60W                               |
+         +---------------------------+-----------------------------------------+
+         | Deep Learning Accelerator | 2x NVDLA                                |
+         +---------------------------+-----------------------------------------+
+         | Vision Accelerator        | PVA v2.0                                |
          +---------------------------+-----------------------------------------+
 
 There are standardized AI
