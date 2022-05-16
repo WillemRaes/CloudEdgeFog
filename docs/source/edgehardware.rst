@@ -286,8 +286,7 @@ Fig. `3 <#fig:googletpu>`__.
 .. container::
    :name: tab:coraldevspec
 
-   .. table:: Specificaties van de Google Coral
-   Dev.
+   .. table:: Specificaties van de Google Coral Dev.
 
       +---------------------------+-----------------------------------------+
       | **Google Coral Dev**      |                                         |
