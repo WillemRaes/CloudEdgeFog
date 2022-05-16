@@ -1,21 +1,22 @@
 Typical Edge Hardware Resources
 ======================================
+
 A Single Board Computer (SBC) is a computer where all the
-  components are placed on one Printed Circuit Board (PCB). This
-  report provides an overview of the relevant SBCs available on the market today and discusses the
-  market today and discusses the important hardware
-  components and available software tools. Since there are hundreds of
-  types of SBCs exist for a very wide range of applications and it is
-  impossible to discuss all of them, this report will
-  relies on major overarching ecosystems to define groups of
-  SBCs.
+components are placed on one Printed Circuit Board (PCB). This
+report provides an overview of the relevant SBCs available on the market today and discusses the
+market today and discusses the important hardware
+components and available software tools. Since there are hundreds of
+types of SBCs exist for a very wide range of applications and it is
+impossible to discuss all of them, this report will
+relies on major overarching ecosystems to define groups of
+SBCs.
 Thus, a general explanation of existing
-  edge computing ecosystems with SBCs and their specific
-  characteristics. Further, the SBCs in the chosen ecosystems are,
-  Whenever possible, SBCs in the chosen ecosystems are compared based on hardware specifications and
-  specifications and performance in benchmarks for specific Machine
-  Learning based computational tasks. The starting point will be
-  existing standardized benchmarks.
+edge computing ecosystems with SBCs and their specific
+characteristics. Further, the SBCs in the chosen ecosystems are,
+Whenever possible, SBCs in the chosen ecosystems are compared based on hardware specifications and
+specifications and performance in benchmarks for specific Machine
+Learning based computational tasks. The starting point will be
+existing standardized benchmarks.
 
 
 Existing Ecosystems for SBC hardware
