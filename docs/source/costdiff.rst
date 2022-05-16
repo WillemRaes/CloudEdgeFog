@@ -9,6 +9,7 @@ Many use cases exist where data streams must be processed within strict timing c
 Parameters that express these requirements are:
 
 - Latency 
+
 Real-time inference is crucial in many applications and the latency requirements can have a decisive impact on the question wether to deploy computing infrastructure in the edge or in the cloud.
 Applications such as real-time video processing or voice recognition are examples where sending the data to a cloud before processing introduces unacceptable delays in the application. In such cases the computations
 should take place in close proximity to or on the data acquisition device to ensure low latency and independence of a network connection. A simple example illustrating the problem could be to imagine a autonomous vehicle
