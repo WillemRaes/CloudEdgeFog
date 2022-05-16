@@ -1,84 +1,83 @@
 Typical Edge Hardware Resources
 ======================================
+A Single Board Computer (SBC) is a computer where all the
+  components are placed on one Printed Circuit Board (PCB). This
+  report provides an overview of the relevant SBCs available on the market today and discusses the
+  market today and discusses the important hardware
+  components and available software tools. Since there are hundreds of
+  types of SBCs exist for a very wide range of applications and it is
+  impossible to discuss all of them, this report will
+  relies on major overarching ecosystems to define groups of
+  SBCs.
+Thus, a general explanation of existing
+  edge computing ecosystems with SBCs and their specific
+  characteristics. Further, the SBCs in the chosen ecosystems are,
+  Whenever possible, SBCs in the chosen ecosystems are compared based on hardware specifications and
+  specifications and performance in benchmarks for specific Machine
+  Learning based computational tasks. The starting point will be
+  existing standardized benchmarks.
 
 
-| Een Single Board Computer (SBC) is een computer waarvan alle
-  componenten op 1 Printed Circuit Board (PCB) geplaatst zijn. Dit
-  verslag geeft een overzicht van de relevante SBC’s die vandaag op de
-  markt beschikbaar zijn en bespreekt de belangrijke hardware
-  componenten en beschikbare software tools. Aangezien er honderden
-  types SBC’s bestaan voor een heel breed bereik van applicaties en het
-  onmogelijk is om deze allemaal te bespreken, wordt voor dit verslag
-  uitgegaan van belangrijke overkoepelende ecosystemen om groepen van
-  SBC’s te definiëren.
-| Er wordt dus eerst een algemene uitleg gegeven van bestaande
-  ecosystemen voor edge computing met SBC’s en hun specifieke
-  eigenschappen. Verder worden de SBC’s in de gekozen ecosystemen,
-  wanneer mogelijk, met elkaar vergeleken op basis van hardware
-  specificaties en performantie in benchmarks voor specifieke Machine
-  Learning gebaseerde computationele taken. Er wordt uitgegaan van
-  bestaande gestandaardiseerde benchmarks.
-
-Verschillende Ecosystemen voor SBC’s
+Existing Ecosystems for SBC hardware
 -----------------------------------------
 
 NVIDIA
 ------
 
-| NVIDIA heeft een specifieke reeks van Single Board Computers, genaamd
-  Jetson , voor verschillende AI gerelateerde
-  toepassingen. Deze productfamilie bevat verschillende generaties van
-  CPU- en GPU-producten met een aantal belangrijke verschillen naar
-  computing mogelijkheden toe. De belangrijkste meerwaarde in de context
-  van Edge-AI van de Jetson series is de on-board hardware voor
-  acceleratie van ML-gerelateerde berekeningen zodat deze toestellen een
-  goeie performantie hebben voor AI-inferentie en tegelijkertijd het
-  nodige energieverbruik hiervoor minimaal houden. Een belangrijke
-  hardware component bij de keuze van een Jetson SBC is de on-board
-  Graphical Proccesing Unit (GPU). De eerste generatie Jetson maakt
-  gebruik van de Maxwell GPU-architectuur,
-  met als opvolger de Pascal architectuur en
-  de laatste generatie van Jetsons maakt gebruik van de Volta
-  architectuur  waar een belangrijke toevoeging
-  de Tensor Cores  zijn die zorgen voor
-  een significante performantiewinst bij inferentie omwille van de
-  mogelijkheid om "mixed precision" floating point berekeningen te doen
-  om ML modellen heel flexibel te optimaliseren. Verder is het zo dat
-  NVIDIA naast hardware oplossingen ook een uitgebreid set aan software
-  bibliotheken ter beschikking stelt om optimaal gebruik te kunnen maken
-  van de hardware acceleratoren aanwezig op de SBC’s. Belangrijke
-  software in dit ecosysteem is de Jetpack
-  SDK die een linux besturingssyteem bevat
-  voor op de Jetson SBC’s en verder alle andere belangrijke bibliotheken
-  bundelt. Zo is er de CUDA computing toolkit om GPU computing te
-  voorzien, cuDNN de CUDA deep learning accelerator framework en Tensor
-  RT wat een framework is om ML taken zoals
-  image classification, object detection en image segmentation te
-  optimaliseren, latency te minimaliseren en inferentie te versnellen.
-  Verder is er nog het image processing framework
-  Visionworks die een groot aantal
-  beeldverwerking taken kan optimaliseren. Naast de Jetpack SDK is er
-  recent ook de NVIDIA Transfer Learning
-  toolkit. Deze software dient
-  specifiek om pre-trained ML modellen voor een waaier aan use cases ter
-  beschikking te stellen voor direct gebruik in AI-applicaties. De
-  modellen worden geoptimaliseerd voor inferentie op NVIDIA hardware en
-  hebben als doel de time to market te minimaliseren omdat men niet van
-  scratch moet beginnen. De beschikbare modellen kunnen ook aangepast
-  (transfer learning) worden aan specifieke use cases.
-| De Jetson SBC’s die vandaag beschikbaar zijn, zijn de Jetson Nano,
-  Jetson TX2, Jetson Xavier NX en de Jetson AGX Xavier. De belangrijkste
-  verschillen tussen deze SBC’s worden hieronder opgelijst.
+NVIDIA has developed a specific series of Single Board Computers, called
+Jetson , for various AI-related
+applications. This product family includes several generations of
+CPU and GPU products with some key differences towards
+computing capabilities. The main added value in the context
+of Edge-AI of the Jetson series is the on-board hardware for
+acceleration of ML-related calculations so that these devices have a
+performance for AI inference and at the same time minimize the
+necessary power consumption for this at a minimum. An important
+hardware component when choosing a Jetson SBC is the on-board
+Graphical Proccesing Unit (GPU). The first generation Jetson uses
+use the Maxwell GPU architecture,
+followed by the Pascal architecture and
+the latest generation of Jetsons uses the Volta
+architecture where an important addition
+Tensor Cores that provide
+significant performance gains in inference because of the
+ability to do mixed precision floating point calculations
+to optimize ML models very flexibly. Furthermore, it is true that
+NVIDIA not only provides hardware solutions but also an extensive set of software libraries
+libraries to make the best use of the hardware accelerators present on
+of the hardware accelerators present on the SBCs. Important
+software in this ecosystem is the Jetpack
+SDK which includes a linux operating system
+for the Jetson SBCs and further bundles all other important libraries.
+bundles. For example, there is the CUDA computing toolkit to provide GPU computing
+computing, cuDNN the CUDA deep learning accelerator framework and Tensor
+RT which is a framework to handle ML tasks such as
+image classification, object detection and image segmentation, minimize
+optimize, minimize latency and accelerate inference.
+Furthermore, there is the image processing framework
+Visionworks which can optimize a large number
+image processing tasks. In addition to the Jetpack SDK, the
+recently added the NVIDIA Transfer Learning
+toolkit. This software serves
+specifically to make pre-trained ML models for a range of use cases available for
+available for direct use in AI applications. The
+models are optimized for inference on NVIDIA hardware and
+aim to minimize the time to market since one does not have to start from
+scratch. The available models can also be adapted
+(transfer learning) to specific use cases.
+The Jetson SBCs available today are the Jetson Nano,
+Jetson TX2, Jetson Xavier NX and the Jetson AGX Xavier. The main
+differences between these SBCs are listed below.
 
 -  | **Jetson Nano**
-   | De Jetson Nano is de eerste generatie SBC van NVIDIA en beschikt
-     over een Quad Core ARM A57 CPU en een 128-core Maxwell GPU en heeft
-     een AI performantie van 472 GFLOPs.
+   | The Jetson Nano is NVIDIA's first generation SBC and features
+     a Quad Core ARM A57 CPU and a 128-core Maxwell GPU and has
+     an AI performance of 472 GFLOPs.
 
    .. container::
       :name: tab:jetsonnano
 
-      .. table:: Specificaties van de Jetson Nano.
+      .. table:: Specifications of Jetson Nano
 
          ========================= ==============================================
          **Jetson Nano SBC**       
@@ -87,23 +86,23 @@ NVIDIA
          CPU                       Quad Core ARM A57 CPU
          GPU                       128-core Maxwell GPU
          Memory                    4 GB 64-bit LPDDR4 25.6GB/s
-         Storage                   SD-kaart wanneer developer kit anders eMMC 5.1
+         Storage                   SD-kaart when dev kit otherwise eMMC 5.1
          CSI Camera                4 cameras D-PHY 1.1 (18 Gbps)
          Power                     5W - 10W
-         Deep Learning Accelerator Geen
-         Vision Accelerator        Geen
+         Deep Learning Accelerator None
+         Vision Accelerator        None
          ========================= ==============================================
 
 -  | **Jetson TX2**
-   | De Jetson TX2 is de opvolger van de Jetson Nano en is beschikbaar
-     in verschillende versies. Deze SBC heeft significant meer
-     computationeel vermogen en beschikt ook over een nieuwere GPU
-     architectuur (Pascal) met 256 GPU cores.
+   | The Jetson TX2 is the successor to the Jetson Nano and is available
+     in several versions. This SBC has significantly more
+     computational power and also features a newer GPU
+     architecture (Pascal) with 256 GPU cores.
 
    .. container::
       :name: tab:jetsontx2
 
-      .. table:: Specificaties van de Jetson TX2.
+      .. table:: Specifications of the Jetson TX2.
 
          +---------------------------+-----------------------------------------+
          | **Jetson TX2**            |                                         |
@@ -123,22 +122,22 @@ NVIDIA
          +---------------------------+-----------------------------------------+
          | Power                     | 7.5W - 15W                              |
          +---------------------------+-----------------------------------------+
-         | Deep Learning Accelerator | Geen                                    |
+         | Deep Learning Accelerator | None                                    |
          +---------------------------+-----------------------------------------+
-         | Vision Accelerator        | Geen                                    |
+         | Vision Accelerator        | None                                    |
          +---------------------------+-----------------------------------------+
 
 -  | **Jetson Xavier NX**
-   | De Jetson Xavier NX is de eerste SBC van de nieuwere Xavier familie
-     en beschikt over massaal meer computationeel vermogen in
-     vergelijking met de Jetson Nano en TX2. Verder bevat deze SBC een
-     GPU met de nieuwere Volta architectuur met 384 GPU cores en ook 48
-     van de geavanceerde Tensor Cores.
+   | The Jetson Xavier NX is the first SBC of the newer Xavier family
+     and features massively more computational power in
+     comparison to the Jetson Nano and TX2. Furthermore, this SBC includes a
+     GPU with the newer Volta architecture with 384 GPU cores and also 48
+     of the advanced Tensor Cores.
 
    .. container::
       :name: tab:jetsonnx
 
-      .. table:: Specificaties van de Jetson Xavier NX.
+      .. table:: Specifications of the Jetson Xavier NX.
 
          +---------------------------+-----------------------------------------+
          | **Jetson Xavier NX**      |                                         |
@@ -153,7 +152,7 @@ NVIDIA
          +---------------------------+-----------------------------------------+
          | Memory                    | 8 GB 128-bit LPDDR4x 51.2GB/s           |
          +---------------------------+-----------------------------------------+
-         | Storage                   | SD-kaart wanneer developer kit anders   |
+         | Storage                   | SD-kaartwhen developer kit otherwise    |
          |                           | 16 GB eMMC 5.1                          |
          +---------------------------+-----------------------------------------+
          | CSI Camera                | 6 cameras D-PHY 1.2 (30 Gbps)           |
@@ -166,14 +165,14 @@ NVIDIA
          +---------------------------+-----------------------------------------+
 
 -  | **Jetson AGX Xavier**
-   | De Jetson AGX Xavier is momenteel de nieuwste en meest geavanceerde
-     SBC in de Jetson reeks en is beschikbaar in een gewone en
-     industriële versie.
+   | The Jetson AGX Xavier is amore advanced
+     SBC in the Jetson range and is available in regular and
+     industrial version.
 
    .. container::
       :name: tab:jetsonagx
 
-      .. table:: Specificaties van de Jetson AGX Xavier.
+      .. table:: Specifiactions of the Jetson AGX Xavier.
 
          +---------------------------+-----------------------------------------+
          | **Jetson AGX Xavier**     |                                         |
@@ -200,93 +199,93 @@ NVIDIA
          | Vision Accelerator        | 2x 7-Way VLIW Vision Processor          |
          +---------------------------+-----------------------------------------+
 
-Er bestaan gestandaardiseerde AI
+There are standardized AI
 benchmarks
-specifiek voor de Jetson SBC’s. Deze vrij beschikbare software test de
-performantie (inferentie) van een reeks populaire en relevante
-ML-modellen beschikbaar in de State of The Art vandaag.
-Tabel `[tab:jetsonbenchmarks] <#tab:jetsonbenchmarks>`__ geeft een
-overzicht van het resultaat van de uitgevoerde benchmarks.
+specifically for the Jetson SBCs. This freely available software tests the
+performance (inference) of a range of popular and relevant
+ML models available in the State of The Art today.
+Table `[tab:jetsonbenchmarks] <#tab:jetsonbenchmarks>`__ gives an overview of the benchmark results.
 
 Intel
 -----
 
-Er bestaan heel wat SBC’s die gebruik maken van x86-gebaseerde
-processoren. Intel heeft
-een framework uitgebouwd om edge computing
-te voorzien en te optimaliseren op hun processor hardware. Intel
-produceert onder andere de Intel Atom
-Processoren voor embedded applicaties,
-de Intel Movidius Vision Processing Units
-om vision en AI workloads te accelereren. Verder biedt het ook de
-OpenVino software toolkit en de Intel
-oneAPI toolkit om ML-workloads te
-optimaliseren voor alle Intel hardware componenten.
+There are quite a few SBCs that use x86-based
+processors. Intel has
+built a framework to provide and optimize edge computing
+provide and optimize on their processor hardware. Intel
+produces, among others, the Intel Atom
+Processors for embedded applications,
+the Intel Movidius Vision Processing Units
+to accelerate vision and AI workloads. Furthermore, it also offers the
+OpenVino software toolkit and the Intel
+oneAPI toolkit to optimize ML workloads for all
+optimize for all Intel hardware components.
 
-Intel legt de focus op het versnellen en optimaliseren van de volledige
-ML-pipeline en gebruikt daarvoor vooral de Intel Xeon processor reeks
-waarmee het een hoge performantie haalt voor een groot aantal
-ML-workloads .
+Intel is focusing on accelerating and optimizing the entire
+ML pipeline, using primarily the Intel Xeon processor series
+with which it achieves high performance for a wide range of
+ML workloads .
 
 ARM
 ---
 
-ARM produceert Intellectual Property (IP) voor CPU’s, GPU’s en andere
-hardware voor een heel breed bereik van toepassingen. ARM is ook heel
-actief bezig met het uitbouwen van een
-ecosysteem  om AI computing in de edge te
-faciliteren en er een rijke set van tools voor te voorzien. Een
-overzicht van deze tools is zichtbaar in Fig. `2 <#fig:armeco>`__.
+ARM produces Intellectual Property (IP) for CPUs, GPUs and other
+hardware for a very wide range of applications. ARM is also very
+actively building an
+ecosystem to facilitate AI computing at the edge and
+facilitate and provide a rich set of tools for it. An
+overview of these tools is visible in Fig. `2 <#fig:armeco>`__.
 
-Deze figuur toont de mogelijkheden van het ARM-ecosysteem vertrekkende
-van populaire ML-frameworks, naar software geoptimaliseerd voor
-ARM-gebaseerde hardware producten en uiteindelijk de hardware
-componenten zelf. Een groot aantal van de recente SBC’s maken gebruik
-van ARM IP voor hun CPU’s en GPU’s. Verder biedt ARM ook de specifieke
-Neural Processing Unit (NPU)  co-processoren
-aan om specifieke ML workloads te versnellen. Deze zijn beschikbaar voor
-Cortex-M microcontroller  systemen maar ook
-voor combinatie met de applicatie processoren in de Cortex-A
-reeks. De software die ARM ter beschikking
-stelt omvat de ARM Computing Library
-en de ARM NN SDK die enerzijds
-GPU-computing op de Mali GPU’s mogelijk
-maakt en anderzijds een set Linux gebaseerde tools voorziet om efficiënt
-gecombineerd gebruik te maken van de Cortex-A CPU, Mali GPU en NPU die
-typisch aanwezig zijn op de SBC-hardware.
+This figure shows the capabilities of the ARM ecosystem starting
+from popular ML frameworks, to software optimized for
+ARM-based hardware products and finally the hardware
+components themselves. A large number of recent SBCs use
+ARM IP for their CPUs and GPUs. Furthermore, ARM also offers the specific
+Neural Processing Unit (NPU) co-processors
+to accelerate specific ML workloads. These are available for
+Cortex-M microcontroller systems but also
+for combination with the application processors in the Cortex-A
+series. The software provided by ARM
+includes the ARM Computing Library
+and the ARM NN SDK which, on the one hand
+GPU computing on the Mali GPUs and
+and on the other hand provides a set of Linux-based tools to efficiently
+combined use of the Cortex-A CPU, Mali GPU and NPU that are
+typically present on the SBC hardware.
 
 Google TPU
 ----------
 
-Google heeft ook een eigen ecosysteem om edge computing te
-faciliteren. Zo is er het
-Tensorflow software framework dat vrij
-kan gebruikt worden om ML-applicaties op te bouwen. Om modellen te
-optimaliseren voor SBC’s en andere hardware met minder computationele
-mogelijkheden dan een server of workstation is er het Tensorflow Lite
-framework dat toelaat om de parameters van
-getrainde modellen te quantiseren en dus de numerieke precisie van de
-parameters aan te passen aan de hardware specificaties van het toestel
-dat de inferentie moet uitvoeren. Google heeft ook een hardware
-accelerator dat gebruikt kan worden voor modellen die opgebouwd zijn
-met, of geconverteerd zijn naar het tensorflow lite formaat. Deze
-accelerator, de Tensor Processing Unit
-(TPU), is een custom Application Specific
-Integrated Circuit (ASIC) die ontwikkeld is om ML-workloads te
-versnellen en het energieverbruik daarvoor minimaal te houden. De edge
-TPU’s voor onder andere SBC’s zijn te vinden op de Google Coral hardware
-producten. De workflow in het google
-ecosysteem is te zien in
-Fig. `3 <#fig:googletpu>`__.
+Google also has its own ecosystem to facilitate edge computing
+facilitation. For example, there is the
+Tensorflow software framework that can be freely
+can be used to build ML applications. In order to
+optimize models for SBCs and other hardware with less computational
+capabilities than a server or workstation there is the Tensorflow Lite
+framework that allows to quantize the parameters of
+trained models and thus adjust the numerical precision of the
+parameters to the hardware specifications of the device
+that is to perform the inference. Google also has a hardware
+accelerator that can be used for models that are built
+with, or converted to, the tensorflow lite format. This
+accelerator, the Tensor Processing Unit
+(TPU), is a custom Application Specific
+Integrated Circuit (ASIC) that is designed to accelerate ML workloads and
+accelerate workloads and minimize power consumption to do so. The edge
+TPUs for SBCs, among others, can be found on the Google Coral hardware
+products. The workflow in the google
+ecosystem is shown in
+Fig. `3 <#fig:googletpu>`__.
 
-| De parameters van het TPU-model moeten gequantiseerd worden naar 8bit
-  fixed point (INT8-UINT8) precisie. Google heeft onder andere een
-  development bord, de Google Coral dev SBC om deze TPU’s te testen.
+
+| The parameters of the TPU model must be quantized to 8bit
+  fixed point (INT8-UINT8) precision. Google has, among other things, a
+  development board, the Google Coral dev SBC to test these TPUs.
 
 .. container::
    :name: tab:coraldevspec
 
-   .. table:: Specificaties van de Google Coral Dev.
+   .. table:: Specifications of the Google Coral Dev.
 
       +---------------------------+-----------------------------------------+
       | **Google Coral Dev**      |                                         |
@@ -312,8 +311,8 @@ Fig. `3 <#fig:googletpu>`__.
       | Vision Accelerator        | Video Processing Unit                   |
       +---------------------------+-----------------------------------------+
 
-Er zijn benchmarks beschikbaar  die
-de performantie van populaire ML-modellen (Neurale Netwerken) test op
-TPU-hardware en vergelijkt met CPU-performantie op een desktop en op een
-SBC. De resultaten van deze benchmark (inferentietijd in ms) zijn
-weergegeven in Tabel `[tab:coralbench] <#tab:coralbench>`__.
+Benchmarks are available that
+tests the performance of popular ML (Neural Networks) models on
+TPU hardware and compares with CPU performance on a desktop and on an
+SBC. The results of this benchmark (inference time in ms) are
+shown in Table `[tab:coralbench] <#tab:coralbench>`__.
