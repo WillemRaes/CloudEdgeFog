@@ -4,7 +4,7 @@ Cloud Edge and Fog Computing
 
 Cloud Computing
 -----------------------------------
-Cloud computing is the well established computing paradigm where the main goal is to enable ubiquitus and on-demand network access
+Cloud computing is the well established computing paradigm where the main goal is to enable ubiquitous and on-demand network access
 to a shared pool of computing resources which can be rapidly provisioned and released with minimal management effort or service provider interaction. [NIST and sensors advances]
 An essential characteristic of cloud computing is that it eliminates the need of on-premise computing infrastructure and its maintenance and management.
 Opposite to cloud computing and thus having all IT infrastructure on-premise has as a consequence that all responsibility regarding service availability, security and updates
@@ -65,7 +65,7 @@ with fog nodes positioned anywhere between cloud and end devices. Essential feat
 
 - Support user mobility.
 
-- Geographically wide distribution and thus decentrailized.
+- Geographically wide distribution and thus decentralized.
 
 - Scalability.
 
@@ -74,7 +74,12 @@ with fog nodes positioned anywhere between cloud and end devices. Essential feat
 Several architectures exist for describing how to deploy fog computing systems in a standardized way (openfog)
 
 A general description is given by the OpenFog N-tier architecture where the generic elements in the architecture are endpoints, fog nodes and the cloud.
-On top of that multiple layers of fog nodes (N-tiers) can exist and form the fog layer.
+On top of that multiple layers of fog nodes (N-tiers) can exist and form the fog layer. Fog nodes can be categorized based on their closeness to the cloud and endpoints:
+
+- Lowest tier: Focus on acquisition, normalization and collection of data from sensors.
+- Intermediate tier: Filtering, compressing and altering of data received from the bottom nodes.
+- Highest tier: aggregating data, knowledge distillation and decision making. 
+
 
 
 
