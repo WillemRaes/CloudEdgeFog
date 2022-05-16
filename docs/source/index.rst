@@ -83,3 +83,8 @@ On top of that multiple layers of fog nodes (N-tiers) can exist and form the fog
 
 
 
+.. toctree::
+    :maxdepth: 2
+    :caption: Contents:
+
+    costdiff

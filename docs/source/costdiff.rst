@@ -1,5 +1,3 @@
-.. toctree::
-    :maxdepth: 2
 Decision metrics  for Cloud VS Edge 
 ======================================
 
