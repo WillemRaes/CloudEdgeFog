@@ -78,8 +78,7 @@ NVIDIA
    .. container::
       :name: tab:jetsonnano
 
-      .. table:: Specificaties van de Jetson
-      Nano.
+      .. table:: Specificaties van de Jetson Nano.
 
          ========================= ==============================================
          **Jetson Nano SBC**       
@@ -104,8 +103,7 @@ NVIDIA
    .. container::
       :name: tab:jetsontx2
 
-      .. table:: Specificaties van de Jetson
-      TX2.
+      .. table:: Specificaties van de Jetson TX2.
 
          +---------------------------+-----------------------------------------+
          | **Jetson TX2**            |                                         |
@@ -140,8 +138,7 @@ NVIDIA
    .. container::
       :name: tab:jetsonnx
 
-      .. table:: Specificaties van de Jetson Xavier
-      NX.
+      .. table:: Specificaties van de Jetson Xavier NX.
 
          +---------------------------+-----------------------------------------+
          | **Jetson Xavier NX**      |                                         |
