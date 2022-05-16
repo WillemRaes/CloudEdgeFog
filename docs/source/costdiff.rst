@@ -20,7 +20,13 @@ In such situations a cloud solution is preferred as this is easily scalable, alw
 
 - Jitter
 
-- responsiveness
+Another timing metric that is important in the decsion process of where to put computing infrastucture is the jitter or variability in the time interval between when processed updates are available for evaluation.
+Time sensitive applications may also require a very deterministic update rate next to a low latency when processing data. One such example is a real time localization system that may impose the requirement of having new location updates within at most 10 ms of each other to ensure good performance for a location based service such as navigation. If variability on the update rate is allowed for a specific use case, then one could opt for a centralized infrastructure in the cloud.    
+
+
+- Responsiveness
+
+Closely related to latency is responsiveness. In many application where for example user input is involved it could be imperative to ensure a high responsiveness. For typical web applications this is not always critical and thus deploying these in the cloud has many advantages. However in some cases where for example a critical process has to be monitored it could be benificial to have the computing infrastructure close to the data source.   
 
 
 Data aspects
