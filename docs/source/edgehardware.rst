@@ -222,15 +222,7 @@ om vision en AI workloads te accelereren. Verder biedt het ook de
 OpenVino software toolkit en de Intel
 oneAPI toolkit om ML-workloads te
 optimaliseren voor alle Intel hardware componenten.
-"..
-.. figure:: figures/openvino.png
-   :alt: Workflow bij de Intel OpenVino software
-   toolkit :raw-latex:`\cite{intelopenvino}`.
-   :name: fig:openvino
 
-   Workflow bij de Intel OpenVino software
-   toolkit :raw-latex:`\cite{intelopenvino}`.
-"
 Intel legt de focus op het versnellen en optimaliseren van de volledige
 ML-pipeline en gebruikt daarvoor vooral de Intel Xeon processor reeks
 waarmee het een hoge performantie haalt voor een groot aantal
@@ -245,13 +237,7 @@ actief bezig met het uitbouwen van een
 ecosysteem  om AI computing in de edge te
 faciliteren en er een rijke set van tools voor te voorzien. Een
 overzicht van deze tools is zichtbaar in Fig. `2 <#fig:armeco>`__.
-"..
-.. figure:: figures/ARMecosystem.png
-   :alt: Workflow bij het ARM AI-platform. 
-   :name: fig:armeco
 
-   Workflow bij het ARM AI-platform. 
-"
 Deze figuur toont de mogelijkheden van het ARM-ecosysteem vertrekkende
 van populaire ML-frameworks, naar software geoptimaliseerd voor
 ARM-gebaseerde hardware producten en uiteindelijk de hardware
@@ -293,19 +279,10 @@ producten. De workflow in het google
 ecosysteem is te zien in
 Fig. `3 <#fig:googletpu>`__.
 
-"..
-.. figure:: figures/compile-workflow.png
-   :alt: Workflow in het Google Coral
-   ecosysteem :raw-latex:`\cite{coralworkflow}`.
-   :name: fig:googletpu
-
-   Workflow in het Google Coral
-   ecosysteem :raw-latex:`\cite{coralworkflow}`.
-
 | De parameters van het TPU-model moeten gequantiseerd worden naar 8bit
   fixed point (INT8-UINT8) precisie. Google heeft onder andere een
   development bord, de Google Coral dev SBC om deze TPU’s te testen.
-"
+
 .. container::
    :name: tab:coraldevspec
 
