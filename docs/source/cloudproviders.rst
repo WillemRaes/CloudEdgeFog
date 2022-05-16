@@ -2,7 +2,7 @@ Typical Cloud Service Providers
 ======================================
 
 Introduction
------------
+--------------
 
 This report lists the different cloud services available
 services with a focus on computing capabilities and Machine
@@ -89,7 +89,7 @@ Compute
 
 
 AI and Machine Learning
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Amazon SageMaker: Fully cloud
    machine-learning platform that allows users to
@@ -182,7 +182,7 @@ Compute
 .. _ai-en-machine-learning-1:
 
 AI and Machine Learning
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 -  Azure AI: Azure AI is a collection of AI services for
    developers and data scientists. It
@@ -249,7 +249,7 @@ Compute
 .. _ai-and-machine-learning-2:
 
 AI and Machine Learning
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 - Google Cloud AI: With Google Cloud AI, Google provides users with a
    comprehensive platform for deploying machine learning and AI
@@ -302,7 +302,7 @@ take into account a large number of factors.
 
 A number of studies attempt to make a comparison between the
 providers in different areas. The authors of
- compared the cloud computing offerings of
+compared the cloud computing offerings of
 Amazon and Google between :math:`2014` and :math:`2016`. This showed that
 Amazon offered a more extensive range of different VM instances,
 while Google offered lower prices for similar instances.
