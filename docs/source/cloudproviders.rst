@@ -40,34 +40,34 @@ Compute
 ~~~~~~~
 
 - Amazon Elastic Compute Cloud (EC2): EC2 is
-   the premier cloud computing platform in the extensive lineup of
-   Amazon. EC2 allows users to run their code and applications
-   run in the cloud on virtual machines, which Amazon calls "instances
-   instances'. The number of active instances can be scaled dynamically
-   according to the current demand for computing capacity. This can be done either
-   manually or automatically with the help of Amazon EC2
-   Auto-Scaling. Currently 352 possible instances are offered with
-   different configurations according to the number of vCPUs, memory capacity
-   storage medium and network speed. The following categories of instance
-   types are offered:
+  the premier cloud computing platform in the extensive lineup of
+  Amazon. EC2 allows users to run their code and applications
+  run in the cloud on virtual machines, which Amazon calls "instances
+  instances'. The number of active instances can be scaled dynamically
+  according to the current demand for computing capacity. This can be done either
+  manually or automatically with the help of Amazon EC2
+  Auto-Scaling. Currently 352 possible instances are offered with
+  different configurations according to the number of vCPUs, memory capacity
+  storage medium and network speed. The following categories of instance
+  types are offered:
 
    - General purpose: balanced instance type with similar performance
-      performance in terms of compute, memory and network functionality.
+     performance in terms of compute, memory and network functionality.
 
    - Compute Optimized: instance type optimized for applications
-      that are strongly compute-bound and thus benefit greatly from
-      the higher processor processing power
+     that are strongly compute-bound and thus benefit greatly from
+     the higher processor processing power
 
    - Memory Optimized: instance type optimized for performance
-      for workloads that work with large amounts of data in the
-      memory
+     for workloads that work with large amounts of data in the
+     memory
 
    - Accelerated Computing: instance type where hardware acceleration is
-      is present to speed up operations such as graphics processing
-      operations are accelerated
+     is present to speed up operations such as graphics processing
+     operations are accelerated
 
    - Storage Optimized: instance type optimized for applications with a high number of read/write accesses
-      with a high number of read/write accesses in local memory
+     with a high number of read/write accesses in local memory
 
    Prices scale according to the specifications of the instances and
    also vary by region. The AWS Free Tier offers 750 hours of free compute
@@ -119,47 +119,47 @@ Compute
    
 
    - A series: 'Affordable entry-level VMs for development and
-      testing": CPU performance and memory configuration for entry-level workloads.
-      entry-level
+     testing": CPU performance and memory configuration for entry-level workloads.
+     entry-level
 
    - Bs series: 'Economical VMs with burst functionality': VMs for workloads
-      that typically require low CPU utilization but can handle significantly higher
-      CPU utilization as demand increases
+     that typically require low CPU utilization but can handle significantly higher
+     CPU utilization as demand increases
 
    - D-Series: "General Purpose": Balanced combination of
-      vCPUs, memory and temporary storage that can meet the
-      requirements of most production workloads
+     vCPUs, memory and temporary storage that can meet the
+     requirements of most production workloads
 
    - E-Series: 'Optimized for in-memory Hyper-Threaded
-      applications": VMs optimized for demanding in-memory
-      applications, ideal for example relational database servers
+     applications": VMs optimized for demanding in-memory
+     applications, ideal for example relational database servers
 
    - F Series: 'Optimized Virtual Machines': VMs
-      optimized for CPU intensive workloads equipped with
-      :math:`2` GB RAM and :math:`16` GB local SSD storage per CPU core
+     optimized for CPU intensive workloads equipped with
+     :math:`2` GB RAM and :math:`16` GB local SSD storage per CPU core
 
    - G-Series: 'Virtual machines with optimized memory and storage
-      optimized storage': Upgrade from the D-Series general-purpose machines with
-      twice the memory and four times the SSD storage.
+     optimized storage': Upgrade from the D-Series general-purpose machines with
+     twice the memory and four times the SSD storage.
 
    - H-Series: 'Virtual machines for high-performance computing
-      performance': VMs optimized for HPC applications
+     performance': VMs optimized for HPC applications
 
    - Ls series: 'Virtual machines with optimized storage': VMs
-      optimized for storage using local NVMe storage,
-      delivering high throughput at low latencies
+     optimized for storage using local NVMe storage,
+     delivering high throughput at low latencies
 
    - M-series: 'Virtual machines optimized for memory': 'VM'
-      optimized for memory, ideal for in-memory workloads
+     optimized for memory, ideal for in-memory workloads
 
    - Mv2 series: 'Largest virtual machines optimized for
-      memory': Series with by far the largest possible
-      memory capacity
+     memory': Series with by far the largest possible
+     memory capacity
 
    - N Series: 'Virtual machines with GPU': VMs with GPU computing
-      capabilities, for both graphics-intensive applications and HPC
-      and machine learning applications. Also offer the possibility for
-      InfiniBand connection
+     capabilities, for both graphics-intensive applications and HPC
+     and machine learning applications. Also offer the possibility for
+     InfiniBand connection
 
    Prices also vary depending on the types of virtual
    machines. It is also possible to use a free
@@ -208,34 +208,34 @@ Compute
 ~~~~~~~
 
 - Google Cloud Compute: Like Amazon and Microsoft, Google also offers
-   a cloud compute service that allows users to run virtual machines
-   run on their infrastructure.
-   Managed instance groups (MIGs) also allow users to have the number of
-   VMs to automatically scale to their needs. Google offers
-   following options in virtual machine types by type of workload:
+  a cloud compute service that allows users to run virtual machines
+  run on their infrastructure.
+  Managed instance groups (MIGs) also allow users to have the number of
+  VMs to automatically scale to their needs. Google offers
+  following options in virtual machine types by type of workload:
 
    - General purpose workloads (E2, N2, N2D, N1): Balanced
-      combination in terms of price and performance, suitable for a large
-      variety of workloads. Available up to
-      :math:`224` vCPUs and :math:`896` GB memory storage.
+     combination in terms of price and performance, suitable for a large
+     variety of workloads. Available up to
+     :math:`224` vCPUs and :math:`896` GB memory storage.
 
    - Ultra-high memory (M2, M1): Optimized for
-      memory intensive workloads with up to :math:`12` TB of storage
-      for a single VM instance.
+     memory intensive workloads with up to :math:`12` TB of storage
+     for a single VM instance.
 
    - Compute-intensive workloads (C2): Highest performance per
-      CPU core and optimized for HPC, gaming servers and
-      latency-sensitive applications.
+     CPU core and optimized for HPC, gaming servers and
+     latency-sensitive applications.
 
    - Most demanding applications and workloads (A2): VMs with
-      acceleration hardware present based on the NVIDIA Ampere A100
-      Tensor Core GPU. Developed for heavy machine learning workloads
-      and HPC.
+     acceleration hardware present based on the NVIDIA Ampere A100
+     Tensor Core GPU. Developed for heavy machine learning workloads
+     and HPC.
 
    - Coming soon:* Scale-out workloads (T2D): New option
-      coming soon focused on scaling out workloads for web services, applications and
-      of workloads for web services, containerized services and
-      etc.
+     coming soon focused on scaling out workloads for web services, applications and
+     of workloads for web services, containerized services and
+     etc.
 
    Users can once again test out the service for free. Free
    accounts will receive :math:`300` USD credit to spend on several Google Cloud services for :math:`90`
