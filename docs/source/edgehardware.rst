@@ -12,8 +12,8 @@ relies on major overarching ecosystems to define groups of
 SBCs.
 Thus, a general explanation of existing
 edge computing ecosystems with SBCs and their specific
-characteristics. Further, the SBCs in the chosen ecosystems are,
-Whenever possible, SBCs in the chosen ecosystems are compared based on hardware specifications and
+characteristics. Furthermore, the SBCs in the chosen ecosystems are,
+Whenever possible, compared based on hardware specifications and
 specifications and performance in benchmarks for specific Machine
 Learning based computational tasks. The starting point will be
 existing standardized benchmarks.
