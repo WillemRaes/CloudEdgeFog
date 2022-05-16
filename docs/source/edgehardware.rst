@@ -1,0 +1,2 @@
+Typical Edge Hardware Resources
+======================================

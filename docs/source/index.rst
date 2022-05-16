@@ -4,4 +4,6 @@
     
     intro
     costdiff
+    cloudproviders
+    edgehardware
     references
