@@ -1,6 +1,6 @@
 CloudEdgeFog
 ======================================
-.. image:: images/projectlogo.png
+.. image:: docs/images/projectlogo.png
   :width: 400
   :alt: Alternative text
 
