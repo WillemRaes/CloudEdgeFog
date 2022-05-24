@@ -39,9 +39,22 @@ In the second part of the seminar a Resnet Centernet model backbone, pre trained
   :alt: Alternative text
 
 
-The repository containg this demo can be found in the `seminar 2 <https://github.com/WillemRaes/AISIBOCOseminar2>`_ repository.
+The repository containing this demo can be found in the `seminar 2 <https://github.com/WillemRaes/AISIBOCOseminar2>`_ repository.
+Lastly a demonstration on how to build and train an image segmentation model based on the `cityscapes <https://www.cityscapes-dataset.com/>`_ dataset is given and the code can be found in the same repository.
+
 
 Seminar 3: Image segmentation and model optimization 
 ---------------------------------------------------------------------------------
+The third seminar focuses on model optimizations for better performance on single board computers. During this seminar 2 Single board computers are considered for real time image segmentation, namely the Jetson nano and Jetson TX2 developer kits from NVIDIA. The implementations in this seminar strongly leverage an exisiting repository of NVIDIA and can be found here: `Jetson inference <https://github.com/dusty-nv/jetson-inference>`_ . This repo contains ML inference examples for object detection and image segmentation use cases and is strongly optimized for NVIDIA hardware. Importantly, it also provides automated model optimizion and parameter quantization via the `TensorRT <https://developer.nvidia.com/tensorrt>`_ engine.
+In this seminar we demonstrate real time image segmentation of car traffic and the environment in the city of Ghent based on a video of a trajectory through the city done by bicycle. More specifically, the difference in latency between local computing on a jetson nano and 'cloud' computing on the jetson TX2 is demonstrated. 
 
+.. image:: ../images/sem3trtworkflow.png
+  :width: 800
+  :alt: Alternative text
+
+.. image:: ../images/sem3latencycomp.png
+  :width: 800
+  :alt: Alternative text
+
+The code for this implementation can be found in the `seminar 3 <https://github.com/WillemRaes/AISIBOCOseminar3>`_ repository.
 
