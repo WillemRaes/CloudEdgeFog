@@ -41,7 +41,7 @@ architecture where an important addition are the
 Tensor Cores, these cores provide
 significant performance gains in inference because of the
 ability to do mixed precision floating point calculations
-to optimize ML models very flexibly. Furthermore, it is true that
+to optimize ML models very flexible. Furthermore, it is true that
 NVIDIA not only provides hardware solutions but also an extensive set of software libraries
 to make the best use of the hardware accelerators present on
 the SBCs. Important
