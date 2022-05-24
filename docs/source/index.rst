@@ -1,4 +1,4 @@
-CloudEdgeFog
+AISIBOCO Knowledge Base 
 ======================================
 .. image:: ../images/projectlogo.png
   :width: 400
