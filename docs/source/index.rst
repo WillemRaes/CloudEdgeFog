@@ -1,6 +1,6 @@
 CloudEdgeFog
 ======================================
-.. image:: docs/images/projectlogo.png
+.. image:: ../images/projectlogo.png
   :width: 400
   :alt: Alternative text
 
@@ -13,5 +13,6 @@ CloudEdgeFog
     costdiff
     cloudproviders
     edgehardware
+    projectrepos
     references
 
