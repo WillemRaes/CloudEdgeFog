@@ -1,5 +1,5 @@
-Typical Edge Hardware Resources
-======================================
+Typical Single Board Computer Ecosystems for Edge Computing
+===========================================================
 
 A Single Board Computer (SBC) is a computer where all the
 components are placed on one Printed Circuit Board (PCB). This
