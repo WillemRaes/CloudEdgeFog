@@ -28,7 +28,7 @@ An implementation of real time image classification and object detection is demo
   :width: 800
   :alt: Alternative text
 
-.. image:: ../images/sem2implementations.png
+.. image:: ../images/sem2consideredimplementations.png
   :width: 800
   :alt: Alternative text
 
@@ -39,7 +39,7 @@ In the second part of the seminar a Resnet Centernet model backbone, pre trained
   :alt: Alternative text
 
 
-The repository containg this demo can be found `here  <https://github.com/WillemRaes/AISIBOCOseminar2>`_ .
+The repository containg this demo can be found in the `seminar 2 <https://github.com/WillemRaes/AISIBOCOseminar2>`_ repository.
 
 Seminar 3: Image segmentation and model optimization 
 ---------------------------------------------------------------------------------
