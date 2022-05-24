@@ -69,6 +69,7 @@ Compute
    - Storage Optimized: instance type optimized for applications with a high number of read/write accesses
      with a high number of read/write accesses in local memory
 
+   
    Prices scale according to the specifications of the instances and
    also vary by region. The AWS Free Tier offers 750 hours of free compute
    capabilities on *t2.micro* or *t3.micro* instances with
