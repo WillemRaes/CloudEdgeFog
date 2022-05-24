@@ -21,8 +21,10 @@ The ONNX representation eliminates dependencies and allows to run inference on a
 
 Seminar 2: Image and video processing for object detection and classification 
 ---------------------------------------------------------------------------------
+The second seminar is on the topic of real time image classifiaction and object detection using a `Jetson Nano <https://developer.nvidia.com/embedded/jetson-nano-developer-kit>`_ single board computer.
+An implementation of real time image classification and object detection is demonstrated using `Tensorflow <https://www.tensorflow.org/>`_ as ML framework. In the first part of the seminar a resnet50v2 backbone for image classification pre trained on the `Imagenet <https://www.image-net.org/>`_ dataset is converted to the ONNX format and used in a real time image classification pipeline which processes a video stream of a smartphone camera and can detect 1000 objects.
 
-
+In the second part of the seminar a Resnet Centernet model backbone, pre trained on the `MSCOCO <https://www.tensorflow.org/hub>`_ dataset, is downloaded via the `Tensorflow Hub <https://www.tensorflow.org/hub>`_ utility and used in a real time Object detection pipeline again processing a camera stream of a smartphone.   
 
 
 
