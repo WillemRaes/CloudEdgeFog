@@ -239,31 +239,31 @@ Compute
 .. _ai-and-machine-learning-2:
 
 AI and Machine Learning
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 - Google Cloud AI: With Google Cloud AI, Google provides users with a
-   comprehensive platform for deploying machine learning and AI
-   based applications. In this, they distinguish
-   :math:`3` major components with some overlap between: AI solutions, AI
-   building blocks and Vertex AI. AI solutions is a collection of
-   ready-made solutions that can be easily integrated
-   within organizations. Within this, Contact Center AI includes
-   solutions for text-to-speech and vice versa and natural language
-   processing for chatbots, and Document AI provides support for
-   document processing and form recognition. AI building blocks is
-   a collection of products that developers can use
-   to add AI functionality to existing applications.
-   Developers can use pre-trained models via the
-   API as well as define custom models or
-   merge them together to create a custom solution. These AI building
-   blocks consist of Sight for image processing, Language for
-   for speech recognition and translation, Conversation for text-to-speech and
-   speech-to-text and Structured Data for inference based on
-   structured data to be performed. Vertex AI is a unified
-   AI platform that allows developers and data scientists to deploy ML
-   models by code. Popular frameworks such as
-   TensorFlow, Keras, PyTorch, SciKit-Learn and Spark are supported
-   and there is a range of TPUs and GPUs as acceleration hardware.
+  comprehensive platform for deploying machine learning and AI
+  based applications. In this, they distinguish
+  :math:`3` major components with some overlap between: AI solutions, AI
+  building blocks and Vertex AI. AI solutions is a collection of
+  ready-made solutions that can be easily integrated
+  within organizations. Within this, Contact Center AI includes
+  solutions for text-to-speech and vice versa and natural language
+  processing for chatbots, and Document AI provides support for
+  document processing and form recognition. AI building blocks is
+  a collection of products that developers can use
+  to add AI functionality to existing applications.
+  Developers can use pre-trained models via the
+  API as well as define custom models or
+  merge them together to create a custom solution. These AI building
+  blocks consist of Sight for image processing, Language for
+  for speech recognition and translation, Conversation for text-to-speech and
+  speech-to-text and Structured Data for inference based on
+  structured data to be performed. Vertex AI is a unified
+  AI platform that allows developers and data scientists to deploy ML
+  models by code. Popular frameworks such as
+  TensorFlow, Keras, PyTorch, SciKit-Learn and Spark are supported
+  and there is a range of TPUs and GPUs as acceleration hardware.
 
 IBM Watson
 ----------
