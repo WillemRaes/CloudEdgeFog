@@ -190,8 +190,7 @@ AI and Machine Learning
 Google Cloud Services
 ---------------------
 
-Google offers a comprehensive set of computing services to facilitate ML
-facilitation.
+Google offers a comprehensive set of computing services to facilitate ML.
 
 .. _compute-2:
 
