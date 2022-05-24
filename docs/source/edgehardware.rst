@@ -3,19 +3,17 @@ Typical Single Board Computer Ecosystems for Edge Computing
 
 A Single Board Computer (SBC) is a computer where all the
 components are placed on one Printed Circuit Board (PCB). This
-report provides an overview of the relevant SBCs available on the market today and discusses the
-market today and discusses the important hardware
+report provides an overview of the relevant SBCs available on the market today and discusses the important hardware
 components and available software tools. Since there are hundreds of
-types of SBCs exist for a very wide range of applications and it is
-impossible to discuss all of them, this report will
-relies on major overarching ecosystems to define groups of
-SBCs.
-Thus, a general explanation of existing
+types of SBCs in existance for a very wide range of applications, it is
+impossible to discuss all of them. Hence this report
+relies on the major overarching ecosystems to define groups of
+SBCs and will give
+a general explanation of existing
 edge computing ecosystems with SBCs and their specific
 characteristics. Furthermore, the SBCs in the chosen ecosystems are,
-Whenever possible, compared based on hardware specifications and
-specifications and performance in benchmarks for specific Machine
-Learning based computational tasks. The starting point will be
+whenever possible, compared based on hardware specifications and performance in benchmarks for specific Machine
+Learning based computational tasks, where the starting point will be
 existing standardized benchmarks.
 
 
@@ -26,42 +24,41 @@ NVIDIA
 ------
 
 NVIDIA has developed a specific series of Single Board Computers, called
-Jetson , for various AI-related
+Jetson, for various AI-related
 applications. This product family includes several generations of
 CPU and GPU products with some key differences towards
 computing capabilities. The main added value in the context
 of Edge-AI of the Jetson series is the on-board hardware for
-acceleration of ML-related calculations so that these devices have a
+acceleration of ML-related calculations, so that these devices have a
 performance for AI inference and at the same time minimize the
-necessary power consumption for this at a minimum. An important
+necessary power consumption. An important
 hardware component when choosing a Jetson SBC is the on-board
 Graphical Proccesing Unit (GPU). The first generation Jetson uses
-use the Maxwell GPU architecture,
-followed by the Pascal architecture and
-the latest generation of Jetsons uses the Volta
-architecture where an important addition
-Tensor Cores that provide
+the Maxwell GPU architecture,
+followed by the Pascal architecture.
+The latest generation of Jetsons uses the Volta
+architecture where an important addition are the
+Tensor Cores, these cores provide
 significant performance gains in inference because of the
 ability to do mixed precision floating point calculations
 to optimize ML models very flexibly. Furthermore, it is true that
 NVIDIA not only provides hardware solutions but also an extensive set of software libraries
-libraries to make the best use of the hardware accelerators present on
-of the hardware accelerators present on the SBCs. Important
+to make the best use of the hardware accelerators present on
+the SBCs. Important
 software in this ecosystem is the Jetpack
 SDK which includes a linux operating system
 for the Jetson SBCs and further bundles all other important libraries.
-bundles. For example, there is the CUDA computing toolkit to provide GPU computing
-computing, cuDNN the CUDA deep learning accelerator framework and Tensor
+For example, there is the CUDA computing toolkit to provide GPU computing,
+cuDNN the CUDA deep learning accelerator framework and Tensor
 RT which is a framework to handle ML tasks such as
-image classification, object detection and image segmentation, minimize
-optimize, minimize latency and accelerate inference.
+image classification, object detection, image segmentation, minimize latency and accelerate inference.
 Furthermore, there is the image processing framework
-Visionworks which can optimize a large number
-image processing tasks. In addition to the Jetpack SDK, the
+Visionworks which can optimize a large number of
+image processing tasks. In addition to the Jetpack SDK, they
 recently added the NVIDIA Transfer Learning
 toolkit. This software serves
 specifically to make pre-trained ML models for a range of use cases available for
-available for direct use in AI applications. The
+direct use in AI applications. The
 models are optimized for inference on NVIDIA hardware and
 aim to minimize the time to market since one does not have to start from
 scratch. The available models can also be adapted
@@ -166,7 +163,7 @@ differences between these SBCs are listed below.
          +---------------------------+-----------------------------------------+
 
 -  | **Jetson AGX Xavier**
-   | The Jetson AGX Xavier is amore advanced
+   | The Jetson AGX Xavier is a more advanced
      SBC in the Jetson range and is available in regular and
      industrial version.
 
@@ -248,14 +245,14 @@ Intel
 There are quite a few SBCs that use x86-based
 processors. Intel has
 built a framework to provide and optimize edge computing
-provide and optimize on their processor hardware. Intel
+on their processor hardware. Intel
 produces, among others, the Intel Atom
-Processors for embedded applications,
+Processors for embedded applications, and
 the Intel Movidius Vision Processing Units
 to accelerate vision and AI workloads. Furthermore, it also offers the
 OpenVino software toolkit and the Intel
 oneAPI toolkit to optimize ML workloads for all
-optimize for all Intel hardware components.
+Intel hardware components.
 
 Intel is focusing on accelerating and optimizing the entire
 ML pipeline, using primarily the Intel Xeon processor series
@@ -285,19 +282,18 @@ series. The software provided by ARM
 includes the ARM Computing Library
 and the ARM NN SDK which, on the one hand
 GPU computing on the Mali GPUs and
-and on the other hand provides a set of Linux-based tools to efficiently
+on the other hand provides a set of Linux-based tools to efficiently
 combined use of the Cortex-A CPU, Mali GPU and NPU that are
 typically present on the SBC hardware.
 
 Google TPU
 ----------
 
-Google also has its own ecosystem to facilitate edge computing
-facilitation. For example, there is the
+Google also has its own ecosystem to facilitate edge computing. For example, there is the
 Tensorflow software framework that can be freely
-can be used to build ML applications. In order to
+used to build ML applications. In order to
 optimize models for SBCs and other hardware with less computational
-capabilities than a server or workstation there is the Tensorflow Lite
+capabilities than a server or workstation, there is the Tensorflow Lite
 framework that allows to quantize the parameters of
 trained models and thus adjust the numerical precision of the
 parameters to the hardware specifications of the device
@@ -306,8 +302,8 @@ accelerator that can be used for models that are built
 with, or converted to, the tensorflow lite format. This
 accelerator, the Tensor Processing Unit
 (TPU), is a custom Application Specific
-Integrated Circuit (ASIC) that is designed to accelerate ML workloads and
-accelerate workloads and minimize power consumption to do so. The edge
+Integrated Circuit (ASIC) that is designed to accelerate ML workloads
+and minimize power consumption to do so. The edge
 TPUs for SBCs, among others, can be found on the Google Coral hardware
 products. The workflow in the google
 ecosystem is shown in
