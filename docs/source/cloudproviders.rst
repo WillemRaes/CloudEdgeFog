@@ -258,7 +258,7 @@ AI and Machine Learning
   blocks consist of Sight for image processing, Language for
   for speech recognition and translation, Conversation for text-to-speech and
   speech-to-text and Structured Data for inference based on
-  structured data to be performed. Vertex AI is a unified
+  structured data. Vertex AI is a unified
   AI platform that allows developers and data scientists to deploy ML
   models by code. Popular frameworks such as
   TensorFlow, Keras, PyTorch, SciKit-Learn and Spark are supported
