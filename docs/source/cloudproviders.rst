@@ -47,7 +47,7 @@ Compute
   Auto-Scaling. Currently 352 possible instances are offered with
   different configurations according to the number of vCPUs, memory capacity, 
   storage medium and network speed. The following categories of instance 
-  types are offered:cite:p:`awsec2types`:
+  types are offered :cite:p:`awsec2types`:
 
    - General purpose: balanced instance type with similar performance in terms of compute, memory and network functionality.
 
@@ -62,8 +62,7 @@ Compute
    - Accelerated Computing: instance type where hardware acceleration is 
      present to speed up operations such as graphics processing
 
-   - Storage Optimized: instance type optimized for applications with a high number of read/write accesses
-     with a high number of read/write accesses in local memory
+   - Storage Optimized: instance type optimized for applications with a high number of read/write accesses in local memory
 
    
    Prices scale according to the specifications of the instances and
@@ -78,7 +77,7 @@ Compute
    90% cheaper compared to on-demand instances.
    Savings Plans offer the possibility to use
    prices when booking EC2 for a term of
-   1` or 3` years, but booking for 3 years is
+   1 or 3 years, but booking for 3 years is
    a risky choice since new types of instances are constantly being 
    added and the prices of old instances are falling :cite:p:`7742995`. Old instances do remain in the supply
    to ensure backward compatibility, but do not offer any
@@ -104,8 +103,7 @@ Microsoft Azure
 Compute
 ~~~~~~~
 
--  Azure Compute - Virtual Machine series: Microsoft also offers a wide variety of
-   of cloud computing services :cite:p:`azurecomputingoverview`, which therefore also includes
+-  Azure Compute - Virtual Machine series: Microsoft also offers a wide variety of cloud computing services :cite:p:`azurecomputingoverview`, which therefore also includes
    virtual machines in the cloud. Like Amazon, Microsoft offers the
    ability to dynamically scale the number of VMs required
    by means of Azure Virtual Machine Scale Sets.
@@ -156,8 +154,8 @@ Compute
    Prices also vary depending on the types of virtual
    machines. It is also possible to use a free
    Azure account :cite:p:`azurefree`. Users then receive
-   USD 200` credit to test Azure services for
-   ` math:`30` days, and get :math:`12` months of free access to
+   200 USD credit to test Azure services for
+   :math:`30` days, and get :math:`12` months of free access to
    a number of popular services, including :math:`750` hours of access to
    VMs in the B1S series with :math:`1` vCPUs, :math:`1` GB RAM and
    :math:`4` GB memory capacity. In addition, services such as
@@ -282,7 +280,7 @@ than Amazon EC2 by cost. Although an
 in-house solution will almost always perform better than in the cloud,
 an in-house computing cluster
 can't match the scalability that the cloud offers. On top of that there is also
-an additional need for both knowledge, infrastructure
+an additional need for both knowledge and infrastructure
 which is not feasible for every enterprise.
 
 A second important choice is the selection of the cloud service
