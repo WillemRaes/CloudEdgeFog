@@ -24,7 +24,7 @@ NVIDIA
 ------
 
 NVIDIA has developed a specific series of Single Board Computers, called
-Jetson, for various AI-related
+`Jetson <https://www.nvidia.com/en-us/autonomous-machines/jetson-store/>`_, for various AI-related
 applications. This product family includes several generations of
 CPU and GPU products with some key differences towards
 computing capabilities. The main added value in the context
@@ -232,12 +232,14 @@ differences between these SBCs are listed below.
          | Vision Accelerator        | PVA v2.0                                |
          +---------------------------+-----------------------------------------+
 
-There are standardized AI
-benchmarks
+There are standardized AI benchmarks
 specifically for the Jetson SBCs. This freely available software tests the
 performance (inference) of a range of popular and relevant
-ML models available in the State of The Art today.
-Table `[tab:jetsonbenchmarks] <#tab:jetsonbenchmarks>`__ gives an overview of the benchmark results.
+ML models available in the State of The Art today. This is a rapidly changing field and the results are best consulted at the source:
+
+- `Jetson Benchmarks repository <https://github.com/NVIDIA-AI-IOT/jetson_benchmarks>`_
+
+- `Jetson Benchmarks overview tables <https://developer.nvidia.com/embedded/jetson-benchmarks>`_
 
 Intel
 -----
@@ -250,14 +252,18 @@ produces, among others, the Intel Atom
 Processors for embedded applications, and
 the Intel Movidius Vision Processing Units
 to accelerate vision and AI workloads. Furthermore, it also offers the
-OpenVino software toolkit and the Intel
-oneAPI toolkit to optimize ML workloads for all
+`OpenVINO <https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit/overview.html>`_ software toolkit and the Intel
+`oneAPI <https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html#gs.19auso>`_ toolkit to optimize ML workloads for all
 Intel hardware components.
 
 Intel is focusing on accelerating and optimizing the entire
 ML pipeline, using primarily the Intel Xeon processor series
 with which it achieves high performance for a wide range of
-ML workloads .
+ML workloads.
+
+.. image:: ../images/openvino.png
+  :width: 800
+  :alt: Alternative text
 
 ARM
 ---
@@ -267,7 +273,12 @@ hardware for a very wide range of applications. ARM is also very
 actively building an
 ecosystem to facilitate AI computing at the edge and
 facilitate and provide a rich set of tools for it. An
-overview of these tools is visible in Fig. `2 <#fig:armeco>`__.
+overview of these tools is visible here:
+
+.. image:: ../images/ARMecosystem.png
+  :width: 800
+  :alt: Alternative text
+
 
 This figure shows the capabilities of the ARM ecosystem starting
 from popular ML frameworks, to software optimized for
@@ -305,9 +316,11 @@ accelerator, the Tensor Processing Unit
 Integrated Circuit (ASIC) that is designed to accelerate ML workloads
 and minimize power consumption to do so. The edge
 TPUs for SBCs, among others, can be found on the Google Coral hardware
-products. The workflow in the google
-ecosystem is shown in
-Fig. `3 <#fig:googletpu>`__.
+products. The workflow in the google ecosystem is shown here:
+
+.. image:: ../images/compileworkflowgoogle.png
+  :width: 800
+  :alt: Alternative text
 
 
 | The parameters of the TPU model must be quantized to 8bit
@@ -346,5 +359,7 @@ Fig. `3 <#fig:googletpu>`__.
 Benchmarks are available that
 tests the performance of popular ML (Neural Networks) models on
 TPU hardware and compares with CPU performance on a desktop and on an
-SBC. The results of this benchmark (inference time in ms) are
-shown in Table `[tab:coralbench] <#tab:coralbench>`__.
+SBC. These benchmarks are frequently updated considering for example new ML models, thus it is best to consult the results at the source:
+
+- `Edge TPU performance benchmarks <https://coral.ai/docs/edgetpu/benchmarks/>`_
+
