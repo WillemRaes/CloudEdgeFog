@@ -310,4 +310,6 @@ of the user**. Thus, it is important that one first
 thoroughly defines them and then evaluates the **choice of cloud service
 provider for the specific use case**.
 
-```{bibliography}
+```
+{bibliography}
+```
