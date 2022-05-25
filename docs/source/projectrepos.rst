@@ -46,7 +46,7 @@ Lastly a demonstration on how to build and train an image segmentation model bas
 Seminar 3: Image segmentation and model optimization 
 ---------------------------------------------------------------------------------
 The third seminar focuses on model optimizations for better performance on single board computers. During this seminar, 2 single board computers are considered for real-time image segmentation, namely the Jetson nano and Jetson TX2 developer kits from NVIDIA. The implementations in this seminar strongly leverage an exisiting repository of NVIDIA and can be found here: `Jetson inference <https://github.com/dusty-nv/jetson-inference>`_ . This repo contains ML inference examples for object detection and image segmentation use cases and is strongly optimized for NVIDIA hardware. Importantly, it also provides automated model optimization and parameter quantization via the `TensorRT <https://developer.nvidia.com/tensorrt>`_ engine.
-In this seminar we demonstrate real-time image segmentation of car traffic and the environment in the city of Ghent based on a video of a trajectory through the city done by bicycle. More specifically, the difference in latency between local computing on a jetson nano and 'cloud' computing on the jetson TX2 is demonstrated. 
+In this seminar we demonstrate real-time image segmentation of car traffic and the environment in the city of Ghent based on a video of a trajectory through the city done by bicycle. More specifically, the difference in latency between local computing on a Jetson Nano and 'cloud' computing on the Jetson TX2 is demonstrated. 
 
 .. image:: ../images/sem3trtworkflow.png
   :width: 800
