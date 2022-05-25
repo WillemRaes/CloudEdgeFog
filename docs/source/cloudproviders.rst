@@ -47,8 +47,7 @@ Compute
   storage medium and network speed. The following categories of instance 
   types are offered:
 
-   - General purpose: balanced instance type with similar performance
-      in terms of compute, memory and network functionality.
+   - General purpose: balanced instance type with similar performance in terms of compute, memory and network functionality.
 
    - Compute Optimized: instance type optimized for applications
      that are strongly compute-bound and thus benefit greatly from
@@ -281,7 +280,7 @@ than Amazon EC2 by cost. Although an
 in-house solution will almost always perform better than in the cloud,
 an in-house computing cluster
 can't match the scalability that the cloud offers. On top of that there is also
-an additional need for both knowledge, infrastructure and the like
+an additional need for both knowledge, infrastructure
 which is not feasible for every enterprise.
 
 A second important choice is the selection of the cloud service
@@ -301,10 +300,8 @@ instances to meet the specific needs of customers.
 It does show how quickly offerings and prices are evolving. According to a
 study comparing IoT services from Amazon,
 Microsoft and Google in terms of performance, it clearly shows that
-that Amazon and Google perform similarly in terms of latency, while
-Microsoft performs worse for this use case. In
-the number of offered
-services offered by Amazon, Microsoft and Google in different categories.
+that Amazon and Google perform similarly in terms of latency, while Microsoft performs worse for this use case. 
+In the number of offered services offered by Amazon, Microsoft and Google in different categories.
 compared. Also compares the offerings of the
 largest :math:`3` cloud service providers. The main conclusion
 from this and other previous studies is clearly that the **choice of

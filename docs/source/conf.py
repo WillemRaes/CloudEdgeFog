@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'CloudEdgeFog'
+project = 'AISIBOCO Knowledge Base'
 copyright = '2022'
 author = '???'
 
@@ -19,6 +19,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'nbsphinx',
     'sphinx.ext.mathjax',
+    'sphinxcontrib.bibtex',
 ]
 
 intersphinx_mapping = {
@@ -35,3 +36,5 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+bibtex_bibfiles = ['refs.bib']

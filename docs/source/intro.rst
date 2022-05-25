@@ -5,7 +5,7 @@ Cloud, Edge and Fog Computing
 Cloud Computing
 -----------------------------------
 Cloud computing is the well established computing paradigm where the main goal is to enable ubiquitous and on-demand network access
-to a shared pool of computing resources which can be rapidly provisioned and released with minimal management effort or service provider interaction. [NIST and sensors advances]
+to a shared pool of computing resources which can be rapidly provisioned and released with minimal management effort or service provider interaction.
 An essential characteristic of cloud computing is that it eliminates the need of on-premise computing infrastructure and its maintenance and management.
 Opposite to cloud computing and thus having all IT infrastructure on-premise has as a consequence that all responsibility regarding service availability, security and updates
 is up to the in-house IT team.      
