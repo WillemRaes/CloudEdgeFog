@@ -44,3 +44,4 @@ An essential metric for determining whether an architecture using infrastructure
 
 Privacy and security aspects
 ---------------------------------------
+Both edge computing and cloud computing introduce challenges in terms of security and privacy.
