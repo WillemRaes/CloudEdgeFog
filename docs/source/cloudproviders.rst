@@ -18,7 +18,7 @@ In particular, Amazon Web Services (AWS), Microsoft Azure and Google Cloud are
 currently the largest players in the field of cloud services. Gartner,
 an international IT research and consulting firm, ranks 
 cloud service providers in a quadrant as shown in
-Figure `1 <#fig:gartner>`__ . In it, it is
+Figure `1 <#fig:gartner>`__  :cite:p:`Gartner`. In it, it is
 clearly seen that AWS, Microsoft Azure and Google Cloud are currently the 
 market leaders in terms of cloud service providers.
 
