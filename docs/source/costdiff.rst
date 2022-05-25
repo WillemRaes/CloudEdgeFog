@@ -3,7 +3,7 @@ Decision metrics  for Cloud VS Edge
 
 Timing aspects
 --------------------------------------
-One very important set of metrics that have a large impact on the decision whether an application should be deployed in the cloud or as some form of edge computing are the timing requirements.
+One very important :cite:p:`nvidiaedgecloudblog`set of metrics that have a large impact on the decision whether an application should be deployed in the cloud or as some form of edge computing are the timing requirements.
 Many use cases exist where data streams must be processed within strict timing constraints to ensure proper functionality of the application.
 
 Parameters that express these requirements are:
@@ -42,5 +42,5 @@ Cost Aspects
 An essential metric for determining whether an architecture using infrastructure in the cloud or edge or a combination of both should be used is the financial cost of deployment and maintenance. Edge computing can bring many valuable additions to applications in terms of latency, reliability and data volume reduction. However it also introduces an additional financial cost. When opting for the deployment of extensive computing infrastructure in the edge, one has to take into account that many considerations regarding hardware choice, amount of resources required, redundancy, maintenance, and which software to use, have to be decided by an in-house engineering and ICT team. When there is no in-house development and engineering present in a company the initial investment in edge computing infrastructure will be very high relative to using a cloud service. The maintenance of the hardware and software components that are deployed are the responsibility of the company and introduces significant costs. In this regard using cloud services is much more flexible as the service provider is specialized in delivering computing infrastructure and one can easily scale and the setup phase and configuration is much less time consuming. Furthermore, using a cloud service is also much less error prone as this equipment and software have been thoroughly tested and have been proven to be reliable, eliminating possible additional costs when errors occur in setting up edge computing infrastructure by oneself. The decision for cloud computing, edge computing, or a hybrid solution should definitely take into account all the costs related to setup and maintenance and weigh them against quality of service, flexibility, reliability and requirements such as full data sovereignty, low latency and more.        
 
 
-Privacy aspects
+Privacy and security aspects
 ---------------------------------------

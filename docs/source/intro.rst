@@ -35,7 +35,7 @@ handle things such as software installation, updates and general management.
 
 Edge Computing 
 -----------------------------------
-Edge computing :cite:p:`emergenceofedgecomputing` is the practice of deploying computing resources in close proximity to the data source upon which has to be processed. The emergence of the Internet of Things (IoT) and applications using artificial intelligence and machine learning
+Edge computing :cite:p:`emergenceofedgecomputing` :cite:p:`nvidiaedgeblog` is the practice of deploying computing resources in close proximity to the data source upon which has to be processed. The emergence of the Internet of Things (IoT) and applications using artificial intelligence and machine learning
 have drastically increased the significance and need of computing in the edge of the network. Edge computing offers solutions for scenarios where latency is essential and can avoid that large volumes of data have to be sent to 
 the cloud before any analytics and decision making can happen. It can also improve the scalability of applications where massive datastreams, such as IoT sensor streams, have to be handled and processed with some time constraint  
 
