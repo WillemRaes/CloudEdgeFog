@@ -35,7 +35,7 @@ most prominent market leader in the cloud computing industry.
 Compute
 ~~~~~~~
 
-- Amazon Elastic Compute Cloud (EC2): EC2 is
+- Amazon Elastic Compute Cloud (EC2) :cite:p:`awsec2`: EC2 is
   the premier cloud computing platform in the extensive lineup of
   Amazon. EC2 allows users to run their code and applications 
   in the cloud on virtual machines, which Amazon calls "instances".
@@ -45,7 +45,7 @@ Compute
   Auto-Scaling. Currently 352 possible instances are offered with
   different configurations according to the number of vCPUs, memory capacity, 
   storage medium and network speed. The following categories of instance 
-  types are offered:
+  types are offered:cite:p:`awsec2types`:
 
    - General purpose: balanced instance type with similar performance in terms of compute, memory and network functionality.
 
@@ -69,16 +69,16 @@ Compute
    capabilities on *t2.micro* or *t3.micro* instances with
    respectively :math:`1` and :math:`2` vCPUs and :math:`1` GB
    memory capacity. On-demand instances are billed by the hour
-   or per second. For use cases
+   or per second :cite:p:`awsec2pricing`. For use cases
    where starting and stopping can be flexible, there is also the
    possibility to use spare capacity at reduced prices,
-   So-called spot instances can be up to
+   So-called spot instances :cite:p:`awsec2spot` can be up to
    90% cheaper compared to on-demand instances.
    Savings Plans offer the possibility to use
    prices when booking EC2 for a term of
    1` or 3` years, but booking for 3 years is
    a risky choice since new types of instances are constantly being 
-   added and the prices of old instances are falling. Old instances do remain in the supply
+   added and the prices of old instances are falling :cite:p:`7742995`. Old instances do remain in the supply
    to ensure backward compatibility, but do not offer any
    interesting performance for the price asked.
 
@@ -86,7 +86,7 @@ Compute
 AI and Machine Learning
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Amazon SageMaker: Fully cloud
+-  Amazon SageMaker :cite:p:`awssagemaker`: Fully cloud
    machine-learning platform that allows users to
    create, train and deploy ML models. Allows to work with ML models at different
    levels of abstraction. Developers can
@@ -103,12 +103,12 @@ Compute
 ~~~~~~~
 
 -  Azure Compute - Virtual Machine series: Microsoft also offers a wide variety of
-   of cloud computing services, which therefore also includes
+   of cloud computing services :cite:p:`azurecomputingoverview`, which therefore also includes
    virtual machines in the cloud. Like Amazon, Microsoft offers the
    ability to dynamically scale the number of VMs required
    by means of Azure Virtual Machine Scale Sets.
 
-   Microsoft divides its virtual machines into different series
+   Microsoft divides its virtual machines into different series :cite:p:`azurevmseries`
    
 
    - A series: 'Affordable entry-level VMs for development and
@@ -153,7 +153,7 @@ Compute
 
    Prices also vary depending on the types of virtual
    machines. It is also possible to use a free
-   Azure account. Users then receive
+   Azure account :cite:p:`azurefree`. Users then receive
    USD 200` credit to test Azure services for
    ` math:`30` days, and get :math:`12` months of free access to
    a number of popular services, including :math:`750` hours of access to
@@ -174,7 +174,7 @@ Compute
 AI and Machine Learning
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
--  Azure AI: Azure AI is a collection of AI services for
+-  Azure AI: Azure AI :cite:p:`azureai` is a collection of AI services for
    developers and data scientists. It
    provides access to pre-trained models for vision, speech, and language
    using API calls. Furthermore, it allows users to build their own
@@ -197,7 +197,7 @@ Compute
 ~~~~~~~
 
 - Google Cloud Compute: Like Amazon and Microsoft, Google also offers
-  a cloud compute service that allows users to run virtual machines
+  a cloud compute service :cite:p:`googlecompute` that allows users to run virtual machines
   on their infrastructure.
   Managed instance groups (MIGs) also allow users to have the number of
   VMs to automatically scale to their needs. Google offers
@@ -239,7 +239,7 @@ Compute
 AI and Machine Learning
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-- Google Cloud AI: With Google Cloud AI, Google provides users with a
+- Google Cloud AI: With Google Cloud AI :cite:p:`googlecloudai`, Google provides users with a
   comprehensive platform for deploying machine learning and AI
   based applications. In this, they distinguish
   :math:`3` major components with some overlap between: AI solutions, AI
@@ -275,7 +275,7 @@ However, making this decision and choosing a suitable cloud service provider is 
 First and foremost, the consideration must be made as to whether it is actually
 worthwhile to run the application in the cloud. Researchers
 at the University of Luxembourg, for example, demonstrated, using a
-a cost model, that their in-house HPC platform performs more efficiently
+a cost model :cite:p:`7742995`, that their in-house HPC platform performs more efficiently
 than Amazon EC2 by cost. Although an
 in-house solution will almost always perform better than in the cloud,
 an in-house computing cluster
@@ -288,7 +288,7 @@ provider. This choice, too, is not so obvious and should
 take into account a large number of factors.
 
 A number of studies attempt to make a comparison between the
-providers in different areas. The authors
+providers in different areas. The authors of :cite:p:`8252109`
 compared the cloud computing offerings of
 Amazon and Google between :math:`2014` and :math:`2016`. This showed that
 Amazon offered a more extensive range of different VM instances,
@@ -298,11 +298,11 @@ cloud computing market. In fact,
 the offerings of both providers have changed significantly and both now offer custom VM
 instances to meet the specific needs of customers.
 It does show how quickly offerings and prices are evolving. According to a
-study comparing IoT services from Amazon,
+study :cite:p:`8938723` comparing IoT services from Amazon,
 Microsoft and Google in terms of performance, it clearly shows that
 that Amazon and Google perform similarly in terms of latency, while Microsoft performs worse for this use case. 
-In the number of offered services offered by Amazon, Microsoft and Google in different categories.
-compared. Also compares the offerings of the
+In :cite:p:`9337100` the number of offered services offered by Amazon, Microsoft and Google in different categories.
+compared. Also :cite:p:`9116254` compares the offerings of the
 largest :math:`3` cloud service providers. The main conclusion
 from this and other previous studies is clearly that the **choice of
 cloud service provider depends heavily on the interests and needs
