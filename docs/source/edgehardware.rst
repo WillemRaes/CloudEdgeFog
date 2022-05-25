@@ -80,7 +80,7 @@ differences between these SBCs are listed below.
          ========================= ==============================================
          **Jetson Nano SBC**       
          ========================= ==============================================
-         AI performance           472 GFLOPs
+         AI performance            472 GFLOPs
          CPU                       Quad Core ARM A57 CPU
          GPU                       128-core Maxwell GPU
          Memory                    4 GB 64-bit LPDDR4 25.6GB/s
@@ -335,7 +335,7 @@ products. The workflow in the Google ecosystem is shown here:
       +---------------------------+-----------------------------------------+
       | **Google Coral Dev**      |                                         |
       +===========================+=========================================+
-      | AI performance           | 21 TFLOPs (INT8)                        |
+      | AI performance            | 21 TFLOPs (INT8)                        |
       +---------------------------+-----------------------------------------+
       | CPU                       | NXP i.MX 8M SoC (quad Cortex-A53,       |
       |                           | Cortex-M4F)                             |
