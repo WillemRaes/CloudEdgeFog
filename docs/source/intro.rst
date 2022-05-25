@@ -1,4 +1,4 @@
-Cloud Edge and Fog Computing
+Cloud, Edge and Fog Computing
 ===================================
 
 
@@ -15,13 +15,13 @@ Cloud computing offers solutions according to the following service models:
 - Infrastructure as a service (IaaS)
 
 In the Infrastructure as a service model, the third party provider enables you to use computing infrastructure such as storage and virtualization, scalable on-demand and accessible via the internet.
-Setting up software and services such as operating systems, middleware, applications,.. is the responsibility of the user while the provider gives you access to and management of the infrastructure typically via 
+Setting up software and services such as operating systems, middleware, applications,.. is the responsibility of the user while the provider gives you access to the management of the infrastructure, typically via 
 an Application Programming Interface (API) or a dashboard. IaaS is a very flexible, low overhead and typically low-cost model.  
 
 - Platform as a service (PaaS)
 
 In the Platform as a service model the provider hosts the hardware and software on its own infrastructure and delivers this set of services as an integrated platform to the user which can use it
-via an internet connection. This model is particulary of interest for developers as it allows them to develop, run and manage applications without having to build and maintain the infrastructure platform
+via an internet connection. This model is particularly of interest for developers as it allows them to develop, run and manage applications without having to build and maintain the infrastructure platform
 usually associated with this process. The environment to build and deploy is provided with the platform.
 
 
@@ -29,7 +29,7 @@ usually associated with this process. The environment to build and deploy is pro
 
 Software as a service is the most comprehensive form of cloud computing as it delivers entire applications which are managed by the provider.
 Software updates, bug fixes and general management of the infrastructure is all handled by the provider. SaaS is a good option for small businesses which have no in-house IT staff or available bandwidth to 
-handle things such as software installation, updates and general managnement. 
+handle things such as software installation, updates and general management. 
 
 
 
@@ -55,7 +55,7 @@ or environmental data in remote areas. In such cases, it can be essential that t
 - Distributed edge computing
 
 In the distributed edge computing model, several components in the edge infrastructure share the load of the required computations in order to optimally utilze the available resources in the local network. 
-An example of such a setup could be AR/VR system that offloads some computations to dedicated hardware, which is installed in close proximity, to ensure that the latency is kept at a mininmum
+An example of such a setup could be AR/VR system that offloads some computations to dedicated hardware, which is installed in close proximity, to ensure that the latency is kept at a minimum
 
 
 

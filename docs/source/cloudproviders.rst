@@ -4,26 +4,22 @@ Typical Cloud Service Providers
 Introduction
 --------------
 
-This report lists the different cloud services available
+This report lists the different available cloud
 services with a focus on computing capabilities and Machine
-Learning (ML). The current range of cloud services has already expanded tremendously and
-expanded and new services continue to be added to the already wide range of providers.
-already wide range of providers. In addition, services that are largely
-are called differently by different providers. Since it is
-impossible to cover all the services offered, this document will focus on the
-focus on the main providers and their main services,
-specifically in the compute and machine learning categories. In addition to the
-services discussed in these categories, these providers however offer a wide range of different
+Learning (ML). The current range of cloud services has already expanded tremendously and new services continue to be added to the already wide range of providers.
+In addition, services are called differently by different providers. Since it is
+impossible to cover all the services offered, this document will focus on the the main providers and their main services,
+specifically in the compute and machine learning categories. 
 However, in addition to the discussed services in these categories, these providers offer a wide range of miscellaneous services in different
-categories including file storage, database management, network management
+categories including file storage, database management, network management, 
 backup services, Internet of Things, developer tools, etc.
 
 In particular, Amazon Web Services (AWS), Microsoft Azure and Google Cloud are
 currently the largest players in the field of cloud services. Gartner,
-an international IT research and consulting firm, ranks cloud service
+an international IT research and consulting firm, ranks 
 cloud service providers in a quadrant as shown in
 Figure `1 <#fig:gartner>`__ . In it, it is
-clearly see that AWS, Microsoft Azure and Google Cloud are currently the market
+clearly seen that AWS, Microsoft Azure and Google Cloud are currently the 
 market leaders in terms of cloud service providers.
 
 
@@ -41,18 +37,18 @@ Compute
 
 - Amazon Elastic Compute Cloud (EC2): EC2 is
   the premier cloud computing platform in the extensive lineup of
-  Amazon. EC2 allows users to run their code and applications
-  run in the cloud on virtual machines, which Amazon calls "instances
-  instances'. The number of active instances can be scaled dynamically
+  Amazon. EC2 allows users to run their code and applications 
+  in the cloud on virtual machines, which Amazon calls "instances".
+  The number of active instances can be scaled dynamically
   according to the current demand for computing capacity. This can be done either
   manually or automatically with the help of Amazon EC2
   Auto-Scaling. Currently 352 possible instances are offered with
-  different configurations according to the number of vCPUs, memory capacity
-  storage medium and network speed. The following categories of instance
+  different configurations according to the number of vCPUs, memory capacity, 
+  storage medium and network speed. The following categories of instance 
   types are offered:
 
    - General purpose: balanced instance type with similar performance
-     performance in terms of compute, memory and network functionality.
+      in terms of compute, memory and network functionality.
 
    - Compute Optimized: instance type optimized for applications
      that are strongly compute-bound and thus benefit greatly from
@@ -62,9 +58,8 @@ Compute
      for workloads that work with large amounts of data in the
      memory
 
-   - Accelerated Computing: instance type where hardware acceleration is
-     is present to speed up operations such as graphics processing
-     operations are accelerated
+   - Accelerated Computing: instance type where hardware acceleration is 
+     present to speed up operations such as graphics processing
 
    - Storage Optimized: instance type optimized for applications with a high number of read/write accesses
      with a high number of read/write accesses in local memory
@@ -80,11 +75,11 @@ Compute
    possibility to use spare capacity at reduced prices,
    So-called spot instances can be up to
    90% cheaper compared to on-demand instances.
-   instances. Savings Plans offer the possibility to use
+   Savings Plans offer the possibility to use
    prices when booking EC2 for a term of
    1` or 3` years, but booking for 3 years is
-   a risky choice since new types of instances are constantly being
-   are being added and the prices of old instances are falling. Old instances do remain in the supply
+   a risky choice since new types of instances are constantly being 
+   added and the prices of old instances are falling. Old instances do remain in the supply
    to ensure backward compatibility, but do not offer any
    interesting performance for the price asked.
 
@@ -94,13 +89,11 @@ AI and Machine Learning
 
 -  Amazon SageMaker: Fully cloud
    machine-learning platform that allows users to
-   create, train and deploy. Allows to work with ML models at different
-   levels of abstraction with ML models. Developers can
+   create, train and deploy ML models. Allows to work with ML models at different
+   levels of abstraction. Developers can
    use pre-trained models on their own data, train built-in models or
-   train on their own data or develop models from scratch.
-   SageMaker includes several tools to, among others, prepare data for use, build and train models.
-   for use, build and train models, and finally deploy them to the
-   deploy in the cloud.
+   or develop models from scratch.
+   SageMaker includes several tools to, among others, prepare data for use, build and train models, and finally deploy them in the cloud.
 
 Microsoft Azure
 ---------------
@@ -111,7 +104,7 @@ Compute
 ~~~~~~~
 
 -  Azure Compute - Virtual Machine series: Microsoft also offers a wide variety of
-   variety of cloud computing services, which therefore also includes
+   of cloud computing services, which therefore also includes
    virtual machines in the cloud. Like Amazon, Microsoft offers the
    ability to dynamically scale the number of VMs required
    by means of Azure Virtual Machine Scale Sets.
@@ -121,7 +114,6 @@ Compute
 
    - A series: 'Affordable entry-level VMs for development and
      testing": CPU performance and memory configuration for entry-level workloads.
-     entry-level
 
    - Bs series: 'Economical VMs with burst functionality': VMs for workloads
      that typically require low CPU utilization but can handle significantly higher
@@ -139,12 +131,10 @@ Compute
      optimized for CPU intensive workloads equipped with
      :math:`2` GB RAM and :math:`16` GB local SSD storage per CPU core
 
-   - G-Series: 'Virtual machines with optimized memory and storage
-     optimized storage': Upgrade from the D-Series general-purpose machines with
+   - G-Series: 'Virtual machines with optimized memory and storage': Upgrade from the D-Series general-purpose machines with
      twice the memory and four times the SSD storage.
 
-   - H-Series: 'Virtual machines for high-performance computing
-     performance': VMs optimized for HPC applications
+   - H-Series: 'Virtual machines for high-performance computing': VMs optimized for HPC applications
 
    - Ls series: 'Virtual machines with optimized storage': VMs
      optimized for storage using local NVMe storage,
@@ -171,7 +161,7 @@ Compute
    VMs in the B1S series with :math:`1` vCPUs, :math:`1` GB RAM and
    :math:`4` GB memory capacity. In addition, services such as
    file storage, database applications, and various AI services can also be
-   can also be tested for free for a limited number of uses. It is
+   tested for free for a limited number of uses.
    It is possible to pay per second of use with billing per
    minute. Spot is also available for workloads that are not time-critical
    to be carried out for significant discounts of up to
@@ -187,21 +177,20 @@ AI and Machine Learning
 
 -  Azure AI: Azure AI is a collection of AI services for
    developers and data scientists. It
-   provides access to pre-trained models for vision, speech, language,
+   provides access to pre-trained models for vision, speech, and language
    using API calls. Furthermore, it allows users to build their own
-   build machine learning models themselves using, among others
+   machine learning models using, among others,
    Jupyter Notebook and Visual Studio Code, and open-source frameworks
    such as TensorFlow and PyTorch. A number of AI and Machine Learning
    powered services can also be tested through a free Azure account.
    Among them are computer vision, translator, anomaly detection,
-   automatic form recognizer and text analysis are available for free
+   automatic form recognizer and text analysis, which are available for a free
    trial for a certain number of uses or transactions.
 
 Google Cloud Services
 ---------------------
 
-Google offers a comprehensive set of computing services to facilitate ML
-facilitation.
+Google offers a comprehensive set of computing services to facilitate ML.
 
 .. _compute-2:
 
@@ -210,7 +199,7 @@ Compute
 
 - Google Cloud Compute: Like Amazon and Microsoft, Google also offers
   a cloud compute service that allows users to run virtual machines
-  run on their infrastructure.
+  on their infrastructure.
   Managed instance groups (MIGs) also allow users to have the number of
   VMs to automatically scale to their needs. Google offers
   following options in virtual machine types by type of workload:
@@ -239,42 +228,41 @@ Compute
      etc.
 
    Users can once again test out the service for free. Free
-   accounts will receive :math:`300` USD credit to spend on several Google Cloud services for :math:`90`
-   days to spend on several Google Cloud services and get
+   accounts will receive :math:`300` USD credit for :math:`90` days to spend on several Google Cloud services 
+   and get
    a free *f1-micro* instance with :math:`1` vCPU and :math:`0.6` GB
    memory available per month. However, these are shared-core
    instances whose vCPU is limited to :math:`20` % CPU time,
-   but of which short periods :math:`100` % of the vCPU can be used
-   be used.
+   but of which short periods :math:`100` % of the vCPU can be used.
 
 .. _ai-and-machine-learning-2:
 
 AI and Machine Learning
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 - Google Cloud AI: With Google Cloud AI, Google provides users with a
-   comprehensive platform for deploying machine learning and AI
-   based applications. In this, they distinguish
-   :math:`3` major components with some overlap between: AI solutions, AI
-   building blocks and Vertex AI. AI solutions is a collection of
-   ready-made solutions that can be easily integrated
-   within organizations. Within this, Contact Center AI includes
-   solutions for text-to-speech and vice versa and natural language
-   processing for chatbots. Document AI provides support for
-   document processing and form recognition. AI building blocks is
-   a collection of products that developers can use
-   to add AI functionality to existing applications.
-   Developers can use pre-trained models via the
-   API as well as define custom models or
-   merge them together to create a custom solution. These AI building
-   blocks consist of Sight for image processing, Language for
-   for speech recognition and translation, Conversation for text-to-speech and
-   speech-to-text and Structured Data for inference based on
-   structured data to be performed. Vertex AI is a unified
-   AI platform that allows developers and data scientists to deploy ML
-   models to deploy by code. Popular frameworks such as
-   TensorFlow, Keras, PyTorch, SciKit-Learn and Spark are supported
-   and there is a range of TPUs and GPUs as acceleration hardware.
+  comprehensive platform for deploying machine learning and AI
+  based applications. In this, they distinguish
+  :math:`3` major components with some overlap between: AI solutions, AI
+  building blocks and Vertex AI. AI solutions is a collection of
+  ready-made solutions that can be easily integrated
+  within organizations. Within this, Contact Center AI includes
+  solutions for text-to-speech and vice versa and natural language
+  processing for chatbots, and Document AI provides support for
+  document processing and form recognition. AI building blocks is
+  a collection of products that developers can use
+  to add AI functionality to existing applications.
+  Developers can use pre-trained models via the
+  API as well as define custom models or
+  merge them together to create a custom solution. These AI building
+  blocks consist of Sight for image processing, Language for
+  for speech recognition and translation, Conversation for text-to-speech and
+  speech-to-text and Structured Data for inference based on
+  structured data. Vertex AI is a unified
+  AI platform that allows developers and data scientists to deploy ML
+  models by code. Popular frameworks such as
+  TensorFlow, Keras, PyTorch, SciKit-Learn and Spark are supported
+  and there is a range of TPUs and GPUs as acceleration hardware.
 
 IBM Watson
 ----------
@@ -282,17 +270,16 @@ IBM Watson
 Choice of Cloud service provider
 ------------------------------------
 
-Making the move to the cloud is very interesting for companies, among other reasons
-among other things, because of its high cost-effectiveness, scalability and
-guaranteed availability. However, making this decision and choosing a suitable
+Making the move to the cloud is very interesting for companies, among other reasons, because of its high cost-effectiveness, scalability and
+guaranteed availability.
 However, making this decision and choosing a suitable cloud service provider is not a simple undertaking.
-First and foremost, the consideration must be made as to whether it is actually worth the
-worthwhile to run the application on the cloud. Researchers
+First and foremost, the consideration must be made as to whether it is actually
+worthwhile to run the application in the cloud. Researchers
 at the University of Luxembourg, for example, demonstrated, using a
-a cost model that their in-house HPC platform performs more efficiently
+a cost model, that their in-house HPC platform performs more efficiently
 than Amazon EC2 by cost. Although an
-in-house solution will almost always perform better than in the cloud, an
-performance than in the cloud, an in-house computing cluster cannot
+in-house solution will almost always perform better than in the cloud,
+an in-house computing cluster
 can't match the scalability that the cloud offers. On top of that there is also
 an additional need for both knowledge, infrastructure and the like
 which is not feasible for every enterprise.
@@ -302,18 +289,18 @@ provider. This choice, too, is not so obvious and should
 take into account a large number of factors.
 
 A number of studies attempt to make a comparison between the
-providers in different areas. The authors of
+providers in different areas. The authors
 compared the cloud computing offerings of
 Amazon and Google between :math:`2014` and :math:`2016`. This showed that
 Amazon offered a more extensive range of different VM instances,
 while Google offered lower prices for similar instances.
 Of course, this study is already quite dated due to the rapid growth in the
-cloud computing market. In fact, the offerings of both providers have
-The offerings of both providers have changed significantly and both now offer custom VM
-instances are now offered by both to meet the specific needs of customers.
+cloud computing market. In fact,
+the offerings of both providers have changed significantly and both now offer custom VM
+instances to meet the specific needs of customers.
 It does show how quickly offerings and prices are evolving. According to a
 study comparing IoT services from Amazon,
-Microsoft and Google in terms of performance clearly shows that
+Microsoft and Google in terms of performance, it clearly shows that
 that Amazon and Google perform similarly in terms of latency, while
 Microsoft performs worse for this use case. In
 the number of offered
@@ -323,5 +310,5 @@ largest :math:`3` cloud service providers. The main conclusion
 from this and other previous studies is clearly that the **choice of
 cloud service provider depends heavily on the interests and needs
 of the user**. Thus, it is important that one first
-thoroughly and define them and then evaluate the **choice of cloud service
+thoroughly defines them and then evaluates the **choice of cloud service
 provider for the specific use case**.
