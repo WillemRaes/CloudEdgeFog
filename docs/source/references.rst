@@ -9,3 +9,4 @@ Recent Advances in Evolving Computing Paradigms: Cloud, Edge, and Fog Technologi
 https://opcfoundation.org/markets-collaboration/openfog/
 
 .. bibliography::
+   :all:

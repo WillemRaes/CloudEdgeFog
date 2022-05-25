@@ -10,7 +10,7 @@ An essential characteristic of cloud computing is that it eliminates the need of
 Opposite to cloud computing and thus having all IT infrastructure on-premise has as a consequence that all responsibility regarding service availability, security and updates
 is up to the in-house IT team.      
 
-Cloud computing offers solutions according to the following service models:
+Cloud computing offers solutions according to the following service models :cite:p:`s22010196`:
 
 - Infrastructure as a service (IaaS)
 
@@ -35,7 +35,7 @@ handle things such as software installation, updates and general management.
 
 Edge Computing 
 -----------------------------------
-Edge computing is the practice of deploying computing resources in close proximity to the data source upon which has to be processed. The emergence of the Internet of Things (IoT) and applications using artificial intelligence and machine learning
+Edge computing :cite:p:`emergenceofedgecomputing` is the practice of deploying computing resources in close proximity to the data source upon which has to be processed. The emergence of the Internet of Things (IoT) and applications using artificial intelligence and machine learning
 have drastically increased the significance and need of computing in the edge of the network. Edge computing offers solutions for scenarios where latency is essential and can avoid that large volumes of data have to be sent to 
 the cloud before any analytics and decision making can happen. It can also improve the scalability of applications where massive datastreams, such as IoT sensor streams, have to be handled and processed with some time constraint  
 
@@ -77,7 +77,7 @@ with fog nodes positioned anywhere between cloud and end devices. Essential feat
 
 - Seamless interoperability and federation
 
-Several architectures exist for describing how to deploy fog computing systems in a standardized way (openfog)
+Several architectures exist for describing how to deploy fog computing systems in a standardized way (`openfog <https://opcfoundation.org/markets-collaboration/openfog/>`_)
 
 A general description is given by the OpenFog N-tier architecture where the generic elements in the architecture are endpoints, fog nodes and the cloud.
 On top of that multiple layers of fog nodes (N-tiers) can exist and form the fog layer. Fog nodes can be categorized based on their closeness to the cloud and endpoints:
