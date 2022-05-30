@@ -4,6 +4,10 @@ AISiBoCo Knowledge Base
   :width: 800
   :alt: Alternative text
 
+.. image:: ../images/involvedgroups.png
+  :width: 800
+  :alt: Alternative text
+
 Context of this documentation
 --------------------------------------
 This documentation is written in the context of the project AISiBoCo on the topic of deploying Machine Learning algorithms on single board computers.
