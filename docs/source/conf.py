@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'AISIBOCO Knowledge Base'
+project = 'AISiBoCo Knowledge Base'
 copyright = '2022'
 author = '???'
 
