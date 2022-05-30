@@ -5,7 +5,7 @@ A Single Board Computer (SBC) is a computer where all the
 components are placed on one Printed Circuit Board (PCB). This
 report provides an overview of the relevant SBCs available on the market today and discusses the important hardware
 components and available software tools. Since there are hundreds of
-types of SBCs in existance for a very wide range of applications, it is
+types of SBCs in existence for a very wide range of applications, it is
 impossible to discuss all of them. Hence this report
 relies on the major overarching ecosystems to define groups of
 SBCs and will give
@@ -33,7 +33,7 @@ acceleration of ML-related calculations, so that these devices have a
 performance for AI inference and at the same time minimize the
 necessary power consumption. An important
 hardware component when choosing a Jetson SBC is the on-board
-Graphical Proccesing Unit (GPU). The first generation Jetson uses
+Graphical Processing Unit (GPU). The first generation Jetson uses
 the Maxwell GPU architecture,
 followed by the Pascal architecture.
 The latest generation of Jetsons uses the Volta
@@ -80,11 +80,11 @@ differences between these SBCs are listed below.
          ========================= ==============================================
          **Jetson Nano SBC**       
          ========================= ==============================================
-         AI performantie           472 GFLOPs
+         AI performance            472 GFLOPs
          CPU                       Quad Core ARM A57 CPU
          GPU                       128-core Maxwell GPU
          Memory                    4 GB 64-bit LPDDR4 25.6GB/s
-         Storage                   SD-kaart when dev kit otherwise eMMC 5.1
+         Storage                   SD-card when dev kit otherwise eMMC 5.1
          CSI Camera                4 cameras D-PHY 1.1 (18 Gbps)
          Power                     5W - 10W
          Deep Learning Accelerator None
@@ -105,7 +105,7 @@ differences between these SBCs are listed below.
          +---------------------------+-----------------------------------------+
          | **Jetson TX2**            |                                         |
          +===========================+=========================================+
-         | AI performantie           | 1.33 TFLOPs                             |
+         | AI performance            | 1.33 TFLOPs                             |
          +---------------------------+-----------------------------------------+
          | CPU                       | Dual-Core NVIDIA Denver 2 64-Bit CPU +  |
          |                           | Quad Core ARM A57 CPU                   |
@@ -140,7 +140,7 @@ differences between these SBCs are listed below.
          +---------------------------+-----------------------------------------+
          | **Jetson Xavier NX**      |                                         |
          +===========================+=========================================+
-         | AI performantie           | 21 TFLOPs (INT8)                        |
+         | AI performance            | 21 TFLOPs (INT8)                        |
          +---------------------------+-----------------------------------------+
          | CPU                       | 6-core NVIDIA Carmel Arm v8.2 64-bit    |
          |                           | CPU                                     |
@@ -150,7 +150,7 @@ differences between these SBCs are listed below.
          +---------------------------+-----------------------------------------+
          | Memory                    | 8 GB 128-bit LPDDR4x 51.2GB/s           |
          +---------------------------+-----------------------------------------+
-         | Storage                   | SD-kaartwhen developer kit otherwise    |
+         | Storage                   | SD-card when developer kit otherwise    |
          |                           | 16 GB eMMC 5.1                          |
          +---------------------------+-----------------------------------------+
          | CSI Camera                | 6 cameras D-PHY 1.2 (30 Gbps)           |
@@ -175,7 +175,7 @@ differences between these SBCs are listed below.
          +---------------------------+-----------------------------------------+
          | **Jetson AGX Xavier**     |                                         |
          +===========================+=========================================+
-         | AI performantie           | 32 TFLOPs (INT8)                        |
+         | AI performance            | 32 TFLOPs (INT8)                        |
          +---------------------------+-----------------------------------------+
          | CPU                       | 8-core NVIDIA Carmel Arm v8.2 64-bit    |
          |                           | CPU                                     |
@@ -207,9 +207,9 @@ differences between these SBCs are listed below.
       .. table:: Specifications of the Jetson AGX Orin.
 
          +---------------------------+-----------------------------------------+
-         | **Jetson AGX Orin**     |                                           |
+         | **Jetson AGX Orin**       |                                         |
          +===========================+=========================================+
-         | AI performantie           | 275 TFLOPs                              |
+         | AI performance            | 275 TFLOPs                              |
          +---------------------------+-----------------------------------------+
          | CPU                       | 12-core Arm Cortex-A78AE v8.2 64-bit CPU| 
          |                           | 3MB L2 + 6MB L3                         |
@@ -291,10 +291,10 @@ Cortex-M microcontroller systems but also
 for combination with the application processors in the Cortex-A
 series. The software provided by ARM
 includes the ARM Computing Library
-and the ARM NN SDK which, on the one hand
+and the ARM NN SDK which, on the one hand provides
 GPU computing on the Mali GPUs and
 on the other hand provides a set of Linux-based tools to efficiently
-combined use of the Cortex-A CPU, Mali GPU and NPU that are
+combine use of the Cortex-A CPU, Mali GPU and NPU that are
 typically present on the SBC hardware.
 
 Google TPU
@@ -316,7 +316,7 @@ accelerator, the Tensor Processing Unit
 Integrated Circuit (ASIC) that is designed to accelerate ML workloads
 and minimize power consumption to do so. The edge
 TPUs for SBCs, among others, can be found on the Google Coral hardware
-products. The workflow in the google ecosystem is shown here:
+products. The workflow in the Google ecosystem is shown here:
 
 .. image:: ../images/compileworkflowgoogle.png
   :width: 800
@@ -335,7 +335,7 @@ products. The workflow in the google ecosystem is shown here:
       +---------------------------+-----------------------------------------+
       | **Google Coral Dev**      |                                         |
       +===========================+=========================================+
-      | AI performantie           | 21 TFLOPs (INT8)                        |
+      | AI performance            | 21 TFLOPs (INT8)                        |
       +---------------------------+-----------------------------------------+
       | CPU                       | NXP i.MX 8M SoC (quad Cortex-A53,       |
       |                           | Cortex-M4F)                             |
@@ -357,7 +357,7 @@ products. The workflow in the google ecosystem is shown here:
       +---------------------------+-----------------------------------------+
 
 Benchmarks are available that
-tests the performance of popular ML (Neural Networks) models on
+test the performance of popular ML (Neural Networks) models on
 TPU hardware and compares with CPU performance on a desktop and on an
 SBC. These benchmarks are frequently updated considering for example new ML models, thus it is best to consult the results at the source:
 
