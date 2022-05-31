@@ -44,4 +44,4 @@ An essential metric for determining whether an architecture using infrastructure
 
 Privacy and security aspects
 ---------------------------------------
-Both edge computing and cloud computing introduce challenges in terms of security and privacy.
+Both edge computing and cloud computing introduce challenges in terms of security and privacy. when opting for a solution fully at the edge and thus deploying your own infrastructure, you achieve full data sovereignty and can enforce any privacy policy. However, the full responsibility of ensuring proper ICT security and maintenance falls upon oneself. In contrast, a cloud service provider typically already has proven solutions and lots of expertise in terms of ICT security. However when using a cloud service provider, one loses full data sovereignty and this could introduce challenges in terms of privacy.      
